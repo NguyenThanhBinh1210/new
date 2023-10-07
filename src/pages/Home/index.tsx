@@ -32,18 +32,19 @@ import BoSung from '~/assets/images/dich-vu-bo-sung-nganh-nghe-kinh-doanh.jpg'
 import TangVon from '~/assets/images/dich-vu-lam-thu-tuc-tang-von-dieu-le-cong-ty.jpg'
 import TangDong from '~/assets/images/lam-thu-tuc-tang-giam-co-dong-cong-ty.jpg'
 import DoiDaiDien from '~/assets/images/dich-vu-doi-dai-dien-phap-luat-cong-ty.jpg'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
     <div className='px-3 lg:grid lg:grid-cols-3 gap-x-6 mt-3'>
       <div className='lg:col-span-3 lg:grid grid-cols-2 lg:gap-x-3 lg:mb-6'>
-        <div className='relative'>
+        <Link to={'/dich-vu-ke-toan'} className='relative'>
           <img src={DichVuKeToan} alt='DichVuKeToan' />
           <div className='absolute bottom-0 h-full w-full bg-gradient-to-b from-transparent to-[rgba(0,0,0,0.4)]'></div>
           <p className='absolute bottom-4 left-4 font-medium text-white text-[17px]'>
             Dịch Vụ Kế Toán (Báo Cáo Thuế) Trọn Gói - Từ 500.000đ/tháng
           </p>
-        </div>
+        </Link>
         <div className='w-[100%] overflow-x-scroll lg:overflow-x-auto mt-2 lg:mt-0 mb-6 lg:mb-0'>
           <div className='w-max flex gap-x-3 lg:flex-col lg:gap-y-3 lg:w-full lg:h-full'>
             <div className='relative w-[370px] h-[208px] lg:h-full lg:w-full'>

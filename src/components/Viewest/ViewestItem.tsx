@@ -1,4 +1,4 @@
-const ViewestItem = ({ img, title }: { img: string, title: string }) => {
+const ViewestItem = ({ img, title }: { img: string; title: string }) => {
   return (
     <div className='flex py-4 '>
       <div className='w-[44%] lg:w-[33%]'>
