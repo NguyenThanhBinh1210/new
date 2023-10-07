@@ -4,6 +4,7 @@ import React from 'react'
 import Logo from '~/assets/images/logover4.png'
 import Banner from '~/assets/images/banner.jpg'
 import { Link } from 'react-router-dom'
+import MenuIcon from '~/assets/images/icons8-menu.svg'
 const Header = () => {
   const { menu, setMenu } = React.useContext(AppContext)
   return (
@@ -13,8 +14,11 @@ const Header = () => {
           <Link to={'/'} className='w-[233.33px] h-[70px]'>
             <img src={Logo} alt='Logo' />
           </Link>
-          <button onClick={() => setMenu(!menu)} className='lg:hidden block w-[55.6px] h-[39.6px] rounded border'>
-            svg
+          <button
+            onClick={() => setMenu(!menu)}
+            className='lg:hidden flex justify-center items-center w-[55.6px] h-[39.6px] rounded border'
+          >
+            <img src={MenuIcon} alt='MenuIcon' className='w-[30px] h-[30px]' />
           </button>
           <div className='lg:block hidden w-[728px] h-[90.28px]'>
             <img src={Banner} alt='Banner' />

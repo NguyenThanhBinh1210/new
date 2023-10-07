@@ -116,7 +116,18 @@ const dataMenu = [
   }
 ]
 const Menu = () => {
-  const { menu } = React.useContext(AppContext)
+  React.useEffect(() => {
+    const handleResize = () => {
+      window.innerWidth < 1024 && setMenu(false)
+      window.innerWidth >= 1024 && setMenu(true)
+    }
+
+    window.addEventListener('resize', handleResize)
+    return () => {
+      window.removeEventListener('resize', handleResize)
+    }
+  }, [])
+  const { menu, setMenu } = React.useContext(AppContext)
   return (
     <div className={`${!menu && 'h-0 overflow-hidden'} transition-all flex flex-col lg:flex-row px-3`}>
       {dataMenu.map((item: itemMenu) => (

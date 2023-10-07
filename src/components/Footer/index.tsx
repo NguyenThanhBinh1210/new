@@ -43,42 +43,44 @@ const dataAddress = [
 ]
 const Footer = () => {
   return (
-    <div className='max-w-[1250px] mx-auto'>
-      <LogoBot></LogoBot>
-      <div className='md:grid md:grid-cols-3 lg:grid-cols-4 gap-4 xl:grid-cols-5'>
-        {dataAddress?.map((item, index) => (
-          <div key={index}>
-            <div className='mb-2'>
-              <p className='bg-[#2a4e9a] text-center uppercase font-semibold py-2 text-white rounded-tr-2xl rounded-bl-2xl'>
-                {item.title}
-              </p>
-            </div>
-            <div className='flex items-center gap-x-2'>
-              <div className='w-4 h-4'>
-                <img src={address} alt='mobilePhone' />
+    <div>
+      <div className='max-w-[1250px] mx-auto px-3'>
+        <LogoBot></LogoBot>
+        <div className='md:grid md:grid-cols-3 lg:grid-cols-4 gap-4 xl:grid-cols-5'>
+          {dataAddress?.map((item, index) => (
+            <div key={index}>
+              <div className='mb-2'>
+                <p className='bg-[#2a4e9a] text-center uppercase font-semibold py-2 text-white rounded-tr-2xl rounded-bl-2xl'>
+                  {item.title}
+                </p>
               </div>
-              {item.address}
-            </div>
-            <div className='mb-4 flex items-center gap-x-2'>
-              <div className='w-4 h-4'>
-                <img src={send} alt='mobilePhone' />
+              <div className='flex items-center gap-x-2'>
+                <div className='w-4 h-4'>
+                  <img src={address} alt='mobilePhone' />
+                </div>
+                {item.address}
               </div>
-              {item.mail}
-            </div>
-            <div className=' text-red-400 flex items-center gap-x-2 hover:text-blue-500 cursor-pointer'>
-              <div className='w-4 h-4'>
-                <img src={mobilePhone} alt='mobilePhone' />
+              <div className='mb-4 flex items-center gap-x-2'>
+                <div className='w-4 h-4'>
+                  <img src={send} alt='mobilePhone' />
+                </div>
+                {item.mail}
               </div>
-              {item.mobilePhone}
-            </div>
-            <div className='mb-4 text-red-400 flex items-center gap-x-2 hover:text-blue-500 cursor-pointer'>
-              <div className='w-4 h-4'>
-                <img src={phone} alt='phone' />
+              <div className=' text-red-400 flex items-center gap-x-2 hover:text-blue-500 cursor-pointer'>
+                <div className='w-4 h-4'>
+                  <img src={mobilePhone} alt='mobilePhone' />
+                </div>
+                {item.mobilePhone}
               </div>
-              {item.phone}
+              <div className='mb-4 text-red-400 flex items-center gap-x-2 hover:text-blue-500 cursor-pointer'>
+                <div className='w-4 h-4'>
+                  <img src={phone} alt='phone' />
+                </div>
+                {item.phone}
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
       <Copyright></Copyright>
     </div>

@@ -9,7 +9,7 @@ const HomeLayout = ({ children }: Props) => {
     <div>
       <Header />
       <div className='h-1 bg-gray-200'></div>
-      {children}
+      <div className='max-w-[1250px] mx-auto'>{children}</div>
       <Footer />
     </div>
   )
