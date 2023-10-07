@@ -149,7 +149,7 @@ const Menu = () => {
           </div>
 
           {item?.children && (
-            <div className=' group-hover:flex lg:absolute top-8 lg:border lg:w-max hidden flex-col bg-white mt-2'>
+            <div className=' group-hover:flex z-10 lg:absolute top-8 lg:border lg:w-max hidden flex-col bg-white mt-2'>
               {item.children.map((itemMenu: itemMenu) => (
                 <Link
                   key={itemMenu.id}
