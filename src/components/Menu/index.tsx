@@ -52,7 +52,7 @@ const dataMenu = [
     children: [
       {
         id: 11,
-        path: '',
+        path: '/bao-cao-tai-chinh',
         title: 'Báo cáo tài chính'
       },
       {
@@ -79,7 +79,7 @@ const dataMenu = [
     children: [
       {
         id: 15,
-        path: '',
+        path: '/dich-vu-thay-doi-ten',
         title: 'Thay đổi tên'
       },
       {
@@ -153,7 +153,7 @@ const Menu = () => {
               {item.children.map((itemMenu: itemMenu) => (
                 <Link
                   key={itemMenu.id}
-                  to={''}
+                  to={itemMenu.path}
                   className='p-2 hover:bg-blue-300 hover:text-white transition-all lg:normal-case lg:font-normal'
                 >
                   {itemMenu.title}

@@ -16,7 +16,7 @@ img {
   object-fit: cover;
 }
 .animate {
-  animation: qualai;
+  animation: qualai infinite;
   animation-duration: 4s;
 }
 @keyframes qualai {

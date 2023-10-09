@@ -4,6 +4,8 @@ import Home from './pages/Home'
 import Intro from './pages/Intro'
 import Contact from './pages/Contact'
 import DichVuKeToan from './pages/DichVuKeToan'
+import BaoCaoTaiChinh from './pages/BaoCaoTaiChinh'
+import DichVuThayDoiTen from './pages/DichVuThayDoiTen'
 const router = createBrowserRouter([
   {
     path: '/',
@@ -34,6 +36,22 @@ const router = createBrowserRouter([
     element: (
       <HomeLayout>
         <DichVuKeToan />
+      </HomeLayout>
+    )
+  },
+  {
+    path: '/bao-cao-tai-chinh',
+    element: (
+      <HomeLayout>
+        <BaoCaoTaiChinh />
+      </HomeLayout>
+    )
+  },
+  {
+    path: '/dich-vu-thay-doi-ten',
+    element: (
+      <HomeLayout>
+        <DichVuThayDoiTen />
       </HomeLayout>
     )
   },
