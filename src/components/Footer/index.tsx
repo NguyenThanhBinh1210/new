@@ -10,35 +10,35 @@ const dataAddress = [
     address: '202 Lê Lai, Phường Bến Thành, Quận 1',
     mail: 'cskh@ketoananpha.vn',
     phone: '(028) 62.704.111',
-    mobilePhone: '0938 268 123'
+    mobilePhone: '0971 559 971'
   },
   {
     title: 'Trụ sở TP.hcm',
     address: '202 Lê Lai, Phường Bến Thành, Quận 1',
     mail: 'cskh@ketoananpha.vn',
     phone: '(028) 62.704.111',
-    mobilePhone: '0938 268 123'
+    mobilePhone: '0971 559 971'
   },
   {
     title: 'Trụ sở TP.hcm',
     address: '202 Lê Lai, Phường Bến Thành, Quận 1',
     mail: 'cskh@ketoananpha.vn',
     phone: '(028) 62.704.111',
-    mobilePhone: '0938 268 123'
+    mobilePhone: '0971 559 971'
   },
   {
     title: 'Trụ sở TP.hcm',
     address: '202 Lê Lai, Phường Bến Thành, Quận 1',
     mail: 'cskh@ketoananpha.vn',
     phone: '(028) 62.704.111',
-    mobilePhone: '0938 268 123'
+    mobilePhone: '0971 559 971'
   },
   {
     title: 'Trụ sở TP.hcm',
     address: '202 Lê Lai, Phường Bến Thành, Quận 1',
     mail: 'cskh@ketoananpha.vn',
     phone: '(028) 62.704.111',
-    mobilePhone: '0938 268 123'
+    mobilePhone: '0971 559 971'
   }
 ]
 const Footer = () => {

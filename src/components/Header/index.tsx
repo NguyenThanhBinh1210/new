@@ -1,7 +1,7 @@
 import { AppContext } from '~/contexts/app.context'
 import Menu from '../Menu'
 import React from 'react'
-import Logo from '~/assets/images/logover4.png'
+import Logo from '~/assets/images/logo.png'
 import Banner from '~/assets/images/banner.jpg'
 import { Link } from 'react-router-dom'
 import MenuIcon from '~/assets/images/icons8-menu.svg'
@@ -11,7 +11,7 @@ const Header = () => {
     <div className='bg-[#f8f9fa]'>
       <div className='max-w-[1250px] mx-auto'>
         <div className='flex items-center justify-between pt-4 pb-[8px] px-3 '>
-          <Link to={'/'} className='w-[233.33px] h-[70px]'>
+          <Link to={'/'} className='w-[308.33px] h-[70px]'>
             <img src={Logo} alt='Logo' />
           </Link>
           <button
