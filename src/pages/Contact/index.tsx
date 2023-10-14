@@ -1,13 +1,60 @@
+import { useRef } from "react";
 import Banner from "~/assets/images/Banner-lien-he.jpg";
 import Lienhe from "~/assets/images/bt-lien-he.png";
+
 const Contact = () => {
+  const formRef = useRef<HTMLFormElement | null>(null);
+
+  function validateEmail(email: string) {
+    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+    return emailPattern.test(email);
+  }
+
+  const handleSubmit = (e: React.MouseEvent) => {
+    e.preventDefault();
+
+    if (!formRef.current) return;
+
+    const formData = new FormData(formRef.current);
+    const emailInput = formData.get("email") as string | null;
+    if (!emailInput || !validateEmail(emailInput)) {
+      alert("Email không hợp lệ. Vui lòng nhập email hợp lệ.");
+      return;
+    }
+
+    const data = {
+      name: formData.get("name") as string | null,
+      phone: formData.get("phone") as string | null,
+      email: emailInput,
+      content: formData.get("content") as string | null,
+    };
+
+    fetch("https://api-kinhdoanh.onrender.com/api/v1/contact/create", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    })
+      .then((response) => {
+        if (response.ok) {
+          alert("Gửi thông tin thành công");
+        } else {
+          alert("Có lỗi xảy ra khi gửi thông tin");
+        }
+      })
+      .catch((error) => {
+        console.error("Lỗi:", error);
+      });
+  };
+
   return (
     <div className="container">
-      <div className="col-span-2 md:col-span-1" style={{ marginTop: "1.2rem" }}>
+      <div className="col-span-2 md:col-span-1" style={{ marginTop: "1rem" }}>
         <img src={Banner} className="w-full mb-3" alt="Banner Liên Hệ" />
       </div>
       <div
-        className="grid grid-cols-3 md:grid-cols-3 gap-4"
+        className="grid grid-cols-2 md:grid-cols-3 gap-4"
         style={{ marginTop: "1.8rem" }}
       >
         <div className="col-span-2 md:col-span-1 ">
@@ -18,59 +65,65 @@ const Contact = () => {
             Hãy để lại thông tin, chuyên viên của chúng tôi sẽ nhanh chóng hỗ
             trợ bạn.
           </p>
+          {/* Gửi thông tin */}
           <div className="mb-10">
-            <form className="space-y-6" action="#" autoComplete="false">
+            <form
+              className="space-y-6"
+              action="#"
+              autoComplete="false"
+              ref={formRef}
+              // onSubmit={handleSubmit}
+            >
               <div>
                 <label
-                  htmlFor="title"
+                  htmlFor="name"
                   className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                 >
                   Họ và Tên
                 </label>
                 <input
                   type="text"
-                  name="title"
-                  id="title"
+                  name="name"
+                  id="name"
                   className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
                   placeholder="Họ và Tên"
-                  // value={data?.email}
                 />
               </div>
               <div>
                 <label
-                  htmlFor="price"
+                  htmlFor="phone"
                   className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                 >
                   Số điện thoại
                 </label>
                 <input
-                  type="number"
-                  name="price"
-                  id="price"
+                  type="text"
+                  name="phone"
+                  id="phone"
                   className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
                   placeholder="Số điện thoại"
-                  // value={data?.address}
                 />
               </div>
               <div>
                 <label
-                  htmlFor="link"
+                  htmlFor="email"
                   className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                 >
                   Email
                 </label>
                 <input
-                  type="text"
-                  name="link"
-                  id="link"
-                  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white"
+                  type="email"
+                  name="email"
+                  id="email"
+                  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                   placeholder="Email"
-                  // value={data?.phone}
+                  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}"
+                  required
                 />
               </div>
               <div>
                 <label
-                  htmlFor="default-search"
+                  htmlFor="content"
                   className=" text-sm font-medium text-gray-900  dark:text-white"
                 >
                   Nội dung
@@ -78,8 +131,8 @@ const Contact = () => {
                 <div className="mt-2">
                   <div className="relative">
                     <textarea
-                      id="default-search"
-                      // value={data?.content}
+                      name="content"
+                      id="content"
                       className="block min-h-max w-full px-4 py-4  text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                       placeholder="Nội dung"
                     />
@@ -89,12 +142,12 @@ const Contact = () => {
             </form>
           </div>
           <div className="text-center">
-            <a role="button" id="btnclick">
+            <a role="button" id="btnclick" onClick={handleSubmit}>
               <img src={Lienhe} alt="Liên Hệ" className="w-40" />
             </a>
           </div>
         </div>
-        <div className="col-span-2 md:col-span-2 ml-10">
+        <div className="col-span-2 md:col-span-2 ml-1">
           <h4 className="font-bold text-primary text-2xl mb-4">
             CÔNG TY DỊCH VỤ KẾ TOÁN ANPHA
           </h4>
@@ -103,9 +156,18 @@ const Contact = () => {
               <p className="text-primary font-bold mb-2">DỊCH VỤ PHÁP LÝ</p>
               <p className="mb-2">
                 <small className="text-lg">
-                  <b>Miền Bắc:</b> <a style={{color: "#ea5644"}} href="tel:0984477711">098 44 777 11</a> |{" "}
-                  <b>Miền Trung:</b> <a style={{color: "#ea5644"}} href="tel:0903003779">0903 003 779</a> |{" "}
-                  <b>Miền Nam:</b> <a style={{color: "#ea5644"}} href="tel:0938268123">0938 268 123</a>
+                  <b>Miền Bắc:</b>{" "}
+                  <a style={{ color: "#ea5644" }} href="tel:0984477711">
+                    0971 559 971
+                  </a>{" "}
+                  | <b>Miền Trung:</b>{" "}
+                  <a style={{ color: "#ea5644" }} href="tel:0903003779">
+                    0971 559 971
+                  </a>{" "}
+                  | <b>Miền Nam:</b>{" "}
+                  <a style={{ color: "#ea5644" }} href="tel:0938268123">
+                    0971 559 971
+                  </a>
                 </small>
               </p>
             </div>
@@ -115,9 +177,18 @@ const Contact = () => {
               <p className="text-primary font-bold mb-2">DỊCH VỤ KẾ TOÁN</p>
               <p className="mb-2">
                 <small className="text-lg">
-                  <b>Miền Bắc:</b> <a style={{color: "#ea5644"}} href="tel:0901042555">0901 042 555</a> |{" "}
-                  <b>Miền Trung:</b> <a style={{color: "#ea5644"}} href="tel:0939356866">0939 35 6866</a> |{" "}
-                  <b>Miền Nam:</b> <a style={{color: "#ea5644"}} href="tel:0902602345">0902 60 2345</a>
+                  <b>Miền Bắc:</b>{" "}
+                  <a style={{ color: "#ea5644" }} href="tel:0901042555">
+                    0971 559 971
+                  </a>{" "}
+                  | <b>Miền Trung:</b>{" "}
+                  <a style={{ color: "#ea5644" }} href="tel:0939356866">
+                    0971 559 971
+                  </a>{" "}
+                  | <b>Miền Nam:</b>{" "}
+                  <a style={{ color: "#ea5644" }} href="tel:0902602345">
+                    0971 559 971
+                  </a>
                 </small>
               </p>
             </div>
@@ -125,13 +196,15 @@ const Contact = () => {
           <div className="mb-3">
             <small className="text-lg">
               <b>cskh@ketoananpha.vn</b>
-            </small>
-            <small className="text-lg ml-4">
-              <b>
-                <a style={{color: "#ea5644"}}href="//fb.com/ketoananpha" target="_blank" rel="nofollow">
-                  fb.com/ketoananpha
-                </a>
-              </b>
+              <a
+                className="ml-2"
+                style={{ color: "#ea5644" }}
+                href="//fb.com/ketoananpha"
+                target="_blank"
+                rel="nofollow"
+              >
+                fb.com/ketoananpha
+              </a>
             </small>
           </div>
           <div className="mb-10" style={{ height: "430px" }}>

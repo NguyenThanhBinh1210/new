@@ -88,10 +88,10 @@ function App() {
           onClick={() => telCall()}
           style={{ borderRadius: "25px" }}
         >
-          <div
+          {/* <div
             className="fixed p-2 rounded-md bottom-5 ml-10 bg-green-500 text-white hover:bg-green-600"
             style={{ borderRadius: "50%" }}
-          ></div>
+          ></div> */}
           <a href="tel:0971559971" className="font-semibold">
             0971559971
           </a>
