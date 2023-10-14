@@ -52,7 +52,7 @@ interface CommentProps {
             </div>
           </div>
           
-        </div>
+        </div>"
         {isVisible &&
         <RepComment apiEndpoint={["https://api-kinhdoanh.onrender.com/api/v1/comment/replies", datas._id]}/>}
         <div className="ml-4">
@@ -60,7 +60,7 @@ interface CommentProps {
             datas.replies.map((replys : any) => (
               <Comment key={replys.id} datas={replys} />
             ))}
-        </div>
+        </div>"
       </div>
     </div>
   );
