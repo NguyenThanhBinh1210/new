@@ -29,7 +29,7 @@ interface CommentProps {
 
         <div className="comment">
           <div className="flex h-7">
-            {" "}
+            {/* {" "} */}
             <div className="w-7 h-full rounded-full bg-blue-600 mr-3">
               {datas.img ? (
                 <img src="{data.img}" />
@@ -47,12 +47,11 @@ interface CommentProps {
           <div className="mt-4 flex">
             <button className="text-blue-500 hover:underline"  onClick={() => setIsVisible(!isVisible)}>Trả lời</button>
             <div className="ml-2 w-6 h-6 rounded-full bg-blue-600 mr-3 text-center text-gray-50">
-              {" "}
               ?
             </div>
           </div>
           
-        </div>"
+        </div>
         {isVisible &&
         <RepComment apiEndpoint={["https://api-kinhdoanh.onrender.com/api/v1/comment/replies", datas._id]}/>}
         <div className="ml-4">
@@ -60,7 +59,7 @@ interface CommentProps {
             datas.replies.map((replys : any) => (
               <Comment key={replys.id} datas={replys} />
             ))}
-        </div>"
+        </div>
       </div>
     </div>
   );
