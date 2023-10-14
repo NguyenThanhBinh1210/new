@@ -226,7 +226,7 @@ const Intro = () => {
 
         <div className="flex items-center justify-center my-4">
           <div className="border-t border-red-500 w-4/12"></div>
-          <h1 className="mx-4 text-5xl font-bold">VỀ CHÚNG TÔI</h1>
+          <h1 className="mx-4 text-5xl font-bold text-center">VỀ CHÚNG TÔI</h1>
           <div className="border-t border-red-500 w-4/12"></div>
         </div>
       </div>

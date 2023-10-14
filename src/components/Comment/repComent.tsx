@@ -43,7 +43,7 @@ const RepComment: React.FC<Prop> = (datax) => {
       {" "}
       <div className="p-12">
       
-        <div className="bg-white p-8 rounded-md shadow-lg">
+        <div className="bg-white p-4 rounded-md shadow-lg">
           <input
             type="text"
             value={text}
@@ -70,7 +70,7 @@ const RepComment: React.FC<Prop> = (datax) => {
           >
             {" "}
           </div>
-          <div className="bg-white p-6 rounded shadow-lg w-96 top-0 left-1/3 absolute z-100">
+          <div className="bg-white p-6 rounded shadow-lg w-96 z-100 w-full left-[50%] top-[50%] translate-y-[-50%] translate-x-[-50%] max-w-md max-h-full absolute ">
             <div className="text-lg font-bold mb-4">
               GẦN XONG! HÃY GIÚP CHÚNG TÔI TRẢ LỜI BẠN.
             </div>

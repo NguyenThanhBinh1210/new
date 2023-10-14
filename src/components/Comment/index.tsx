@@ -11,6 +11,10 @@ const Comment: React.FC<Props> = ({ apiEndpoint }) => {
   const [email, setEmail] = useState("");
   const [city, setCity] = useState("Hồ Chí Minh");
   const handleSubmit = async () => {
+    if (email === "") {
+      alert("Vui lòng nhập email!");
+      return;
+    }
     try {
       const response = await fetch(apiEndpoint, {
         method: "POST",
@@ -37,7 +41,7 @@ const Comment: React.FC<Props> = ({ apiEndpoint }) => {
   return (
     <div>
       {" "}
-      <div className="p-12">
+      <div className="p-5">
         <div className="p-3 text-center">
           <h1 className="text-3xl font-bold mb-4">BÌNH LUẬN - HỎI ĐÁP</h1>
           <p className="text-2xl  font-bold  text-red-700 flex justify-center">
@@ -45,7 +49,7 @@ const Comment: React.FC<Props> = ({ apiEndpoint }) => {
           </p>
           
         </div>
-        <div className="bg-white p-8 rounded-md shadow-lg">
+        <div className="bg-white p-4 rounded-md shadow-lg">
           <input
             type="text"
             value={text}
@@ -72,7 +76,7 @@ const Comment: React.FC<Props> = ({ apiEndpoint }) => {
           >
             {" "}
           </div>
-          <div className="bg-white p-6 rounded shadow-lg w-96 top-0 left-1/3 absolute z-100">
+          <div className="bg-white p-6 rounded shadow-lg w-96 z-100 w-full left-[50%] top-[50%] translate-y-[-50%] translate-x-[-50%] max-w-md max-h-full absolute ">
             <div className="text-lg font-bold mb-4">
               GẦN XONG! HÃY GIÚP CHÚNG TÔI TRẢ LỜI BẠN.
             </div>

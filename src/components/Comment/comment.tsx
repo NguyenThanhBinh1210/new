@@ -3,7 +3,16 @@ import axios from "axios";
 import RepComment from "./repComent";
 
 interface CommentProps {
-    datas: any; // Nên thay 'any' bằng kiểu dữ liệu cụ thể cho 'data' nếu bạn biết nó
+    datas: any;
+  }
+  function hideEmail(email: string): string {
+    const atIndex = email.indexOf('@');
+    if (atIndex === -1) {
+      return email;
+    }
+    const hiddenPart = email.substring(0, atIndex).slice(0, -3) + '****';
+    const visiblePart = email.substring(atIndex);
+    return hiddenPart + visiblePart;
   }
   const Comment: React.FC<CommentProps> = ({ datas }) => {
     const [isVisible, setIsVisible] = useState(false);
@@ -22,6 +31,8 @@ interface CommentProps {
     date.getMonth() + 1
   }-${date.getFullYear()} lúc ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
 
+  const email = datas.email;
+  const hiddenEmail = hideEmail(email);
   return (
     <div className="p-4 border rounded-lg shadow-md max-w-fullxl mx-auto mt-4 ">
       <div className=" items-center mb-4 w-full">
@@ -29,8 +40,7 @@ interface CommentProps {
 
         <div className="comment">
           <div className="flex h-7">
-            {/* {" "} */}
-            <div className="w-7 h-full rounded-full bg-blue-600 mr-3">
+            <div className="w-7 h-full rounded-full bg-blue-600 items-center mr-3">
               {datas.img ? (
                 <img src="{data.img}" />
               ) : (
@@ -39,8 +49,8 @@ interface CommentProps {
                 </div>
               )}
             </div>
-            <h4>{datas.email} | </h4>
-            <p className="ml-2 text-base text-gray-500">{formattedDate}</p>
+            <h4>{hiddenEmail}</h4>
+            <p className="ml-2 text-base text-gray-500"> | {formattedDate}</p>
           </div>
 
           <p className="text-gray-700"> {datas.content}</p>
@@ -91,7 +101,7 @@ function AllComent() {
   }, [reloadKey]);
 
   return (
-    <div className="p-8">
+    <div className="p-5">
       {commentxs.map((commentData : any) => (
         <div>
           <Comment key={commentData._id} datas={commentData} />
