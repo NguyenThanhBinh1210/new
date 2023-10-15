@@ -6,6 +6,7 @@ import Contact from './pages/Contact'
 import DichVuKeToan from './pages/DichVuKeToan'
 import BaoCaoTaiChinh from './pages/BaoCaoTaiChinh'
 import DichVuThayDoiTen from './pages/DichVuThayDoiTen'
+import KeToanThueTronGoi from './pages/KeToanThueTronGoi'
 const router = createBrowserRouter([
   {
     path: '/',
@@ -52,6 +53,14 @@ const router = createBrowserRouter([
     element: (
       <HomeLayout>
         <DichVuThayDoiTen />
+      </HomeLayout>
+    )
+  },
+  {
+    path: '/ke-toan-thue-tron-goi',
+    element: (
+      <HomeLayout>
+        <KeToanThueTronGoi />
       </HomeLayout>
     )
   },

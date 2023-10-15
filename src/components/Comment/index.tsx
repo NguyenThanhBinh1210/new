@@ -1,5 +1,6 @@
-import { useState } from "react";
-
+import { useState, useEffect } from "react";
+import axios from "axios";
+const host = "https://provinces.open-api.vn/api/";
 interface Props {
   apiEndpoint: string;
 }
@@ -9,7 +10,18 @@ const Comment: React.FC<Props> = ({ apiEndpoint }) => {
   const [text, setText] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
   const [email, setEmail] = useState("");
-  const [city, setCity] = useState("Hồ Chí Minh");
+  const [cityList, setCityList] = useState([]);
+  const [city, setCity] = useState("");
+  useEffect(() => {
+    axios
+      .get(`${host}`)
+      .then((response) => {
+        setCityList(response.data);
+      })
+      .catch((error) => {
+        console.error("Lỗi khi tải danh sách tỉnh/thành phố: ", error);
+      });
+  }, []);
   const handleSubmit = async () => {
     if (email === "") {
       alert("Vui lòng nhập email!");
@@ -24,13 +36,13 @@ const Comment: React.FC<Props> = ({ apiEndpoint }) => {
         body: JSON.stringify({
           phone: phoneNumber,
           email: email,
-          address: city,  
+          address: city,
           content: text,
         }),
       });
-      setText("")
-      setPhoneNumber("")
-      setEmail("")
+      setText("");
+      setPhoneNumber("");
+      setEmail("");
       console.log(phoneNumber, email, city, text);
       const data = await response.json();
       console.log(data);
@@ -45,9 +57,9 @@ const Comment: React.FC<Props> = ({ apiEndpoint }) => {
         <div className="p-3 text-center">
           <h1 className="text-3xl font-bold mb-4">BÌNH LUẬN - HỎI ĐÁP</h1>
           <p className="text-2xl  font-bold  text-red-700 flex justify-center">
-            Hãy để lại câu hỏi của bạn, chúng tôi sẽ trả lời  <p className="text-cyan-600 ml-2"> TRONG 15 PHÚT</p> 
+            Hãy để lại câu hỏi của bạn, chúng tôi sẽ trả lời{" "}
+            <p className="text-cyan-600 ml-2"> TRONG 15 PHÚT</p>
           </p>
-          
         </div>
         <div className="bg-white p-4 rounded-md shadow-lg">
           <input
@@ -108,8 +120,12 @@ const Comment: React.FC<Props> = ({ apiEndpoint }) => {
                 onChange={(e) => setCity(e.target.value)}
                 className="w-full px-3 py-2 border rounded"
               >
-                <option value="Hồ Chí Minh">Hồ Chí Minh</option>
-                // Thêm các lựa chọn khác tại đây
+                <option value="">Chọn tỉnh/thành phố</option>
+                {cityList.map((item: any) => (
+                  <option key={item.code} value={item.name}>
+                    {item.name}
+                  </option>
+                ))}
               </select>
             </div>
             <button

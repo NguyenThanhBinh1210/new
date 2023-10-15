@@ -52,21 +52,26 @@ const dataMenu = [
     children: [
       {
         id: 11,
+        path: '/ke-toan-thue-tron-goi',
+        title: 'Kế toán thuế trọn gói'
+      },
+      {
+        id: 12,
         path: '/bao-cao-tai-chinh',
         title: 'Báo cáo tài chính'
       },
       {
-        id: 12,
+        id: 13,
         path: '',
         title: 'quyết toán thuế'
       },
       {
-        id: 13,
+        id: 14,
         path: '',
         title: 'soát xét sổ sách'
       },
       {
-        id: 14,
+        id: 15,
         path: '',
         title: 'Hoàn thuế gtgt'
       }
@@ -78,22 +83,22 @@ const dataMenu = [
     title: 'Thay đổi gpkd',
     children: [
       {
-        id: 15,
+        id: 16,
         path: '/dich-vu-thay-doi-ten',
         title: 'Thay đổi tên'
       },
       {
-        id: 16,
+        id: 17,
         path: '',
         title: 'Đổi địa chỉ'
       },
       {
-        id: 17,
+        id: 18,
         path: '',
         title: 'Thêm ngành nghề'
       },
       {
-        id: 18,
+        id: 19,
         path: '',
         title: 'Tăng vốn điều lệ'
       },
@@ -103,7 +108,7 @@ const dataMenu = [
         title: 'thêm cổ đông'
       },
       {
-        id: 19,
+        id: 21,
         path: '',
         title: 'Đổi đại diện pháp luật'
       }
