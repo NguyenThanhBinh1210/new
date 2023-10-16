@@ -1,7 +1,7 @@
 import { AppContext } from '~/contexts/app.context'
 import Menu from '~/components/Menu/index'
 import React from 'react'
-import Logo from '~/assets/images/logo.png'
+import Logo from '~/assets/images/logo-top.jpg'
 import Banner from '~/assets/images/banner.jpg'
 import { Link } from 'react-router-dom'
 import MenuIcon from '~/assets/images/icons8-menu.svg'
