@@ -1,12 +1,12 @@
-import Slider from 'react-slick'
+// import Slider from 'react-slick'
 import { useState } from 'react'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 
-import ImageCompany from '~/assets/images/thanh-lap-cong-ty.jpg'
-import DichVuKeToanTronGoi from '~/assets/images/Dich-vu-ke-toan-tron-goi.jpg'
-import DichVuDangKyThuongHieu from '~/assets/images/dich-vu-dang-ky-thuong-hieu(1).jpg'
-import DangKykinhDoanh from '~/assets/images/dang-ky-kinh-doanh-ho-ca-the.jpg'
+// import ImageCompany from '~/assets/images/thanh-lap-cong-ty.jpg'
+// import DichVuKeToanTronGoi from '~/assets/images/Dich-vu-ke-toan-tron-goi.jpg'
+// import DichVuDangKyThuongHieu from '~/assets/images/dich-vu-dang-ky-thuong-hieu(1).jpg'
+// import DangKykinhDoanh from '~/assets/images/dang-ky-kinh-doanh-ho-ca-the.jpg'
 import Comment from '~/components/Comment'
 import AllComent from '~/components/Comment/comment'
 const allReviews = [
@@ -71,28 +71,28 @@ const allReviews = [
   }
 ]
 
-const posts = [
-  {
-    img: ImageCompany,
-    link: '/thanh-lap-cong-ty',
-    text: 'Dịch vụ thành lập công ty, doanh nghiệp Giá Rẻ -【 250.000đ 】'
-  },
-  {
-    img: DichVuKeToanTronGoi,
-    link: '/dich-vu-ke-toan-tron-goi',
-    text: 'Dịch Vụ Kế Toán (Báo Cáo Thuế) Trọn Gói - Từ 500.000đ/tháng'
-  },
-  {
-    img: DichVuDangKyThuongHieu,
-    link: '/dich-vu-dang-ky-thuong-hieu',
-    text: 'Dịch vụ đăng ký thương hiệu, nhãn hiệu độc quyền 1.000.000đ'
-  },
-  {
-    img: DangKykinhDoanh,
-    link: '/dang-ky-kinh-doanh-ho-ca-the',
-    text: 'Dịch vụ đăng ký giấy phép Hộ Kinh Doanh Cá Thể - 1.500.000đ'
-  }
-]
+// const posts = [
+//   {
+//     img: ImageCompany,
+//     link: '/thanh-lap-cong-ty',
+//     text: 'Dịch vụ thành lập công ty, doanh nghiệp Giá Rẻ -【 250.000đ 】'
+//   },
+//   {
+//     img: DichVuKeToanTronGoi,
+//     link: '/dich-vu-ke-toan-tron-goi',
+//     text: 'Dịch Vụ Kế Toán (Báo Cáo Thuế) Trọn Gói - Từ 500.000đ/tháng'
+//   },
+//   {
+//     img: DichVuDangKyThuongHieu,
+//     link: '/dich-vu-dang-ky-thuong-hieu',
+//     text: 'Dịch vụ đăng ký thương hiệu, nhãn hiệu độc quyền 1.000.000đ'
+//   },
+//   {
+//     img: DangKykinhDoanh,
+//     link: '/dang-ky-kinh-doanh-ho-ca-the',
+//     text: 'Dịch vụ đăng ký giấy phép Hộ Kinh Doanh Cá Thể - 1.500.000đ'
+//   }
+// ]
 const ReviewComponent = () => {
   const [currentIndex, setCurrentIndex] = useState(0)
 
@@ -172,46 +172,46 @@ const ReviewComponent = () => {
     </div>
   )
 }
-const ImageCarousel = () => {
-  const images = ['1-02', '2-02', '3-02', '5-02', '6-02', '7-02']
+// const ImageCarousel = () => {
+//   const images = ['1-02', '2-02', '3-02', '5-02', '6-02', '7-02']
 
-  const settings = {
-    infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 3,
-    autoplay: true,
-    autoplaySpeed: 9000,
-    responsive: [
-      {
-        breakpoint: 980, // breakpoint from width 768 up
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
-  }
+//   const settings = {
+//     infinite: true,
+//     slidesToShow: 3,
+//     slidesToScroll: 3,
+//     autoplay: true,
+//     autoplaySpeed: 9000,
+//     responsive: [
+//       {
+//         breakpoint: 980, // breakpoint from width 768 up
+//         settings: {
+//           slidesToShow: 1,
+//           slidesToScroll: 1
+//         }
+//       }
+//     ]
+//   }
 
-  return (
-    <div className='row gutter my-3 '>
-      <div className='col-md-12 col-lg-12'>
-        <div className="wrap-slide bg-[url('https://ketoananpha.vn/uploads/images/post/about-background-01.png')]">
-          <Slider {...settings}>
-            {images.map((image, index) => (
-              <div key={index}>
-                <img
-                  className='w-100 p-5'
-                  src={`https://ketoananpha.vn/uploads/images/post/${image}.jpg`}
-                  alt={image}
-                />
-              </div>
-            ))}
-          </Slider>
-        </div>
-      </div>
-    </div>
-  )
-}
+//   return (
+//     <div className='row gutter my-3 '>
+//       <div className='col-md-12 col-lg-12'>
+//         <div className="wrap-slide bg-[url('https://ketoananpha.vn/uploads/images/post/about-background-01.png')]">
+//           <Slider {...settings}>
+//             {images.map((image, index) => (
+//               <div key={index}>
+//                 <img
+//                   className='w-100 p-5'
+//                   src={`https://ketoananpha.vn/uploads/images/post/${image}.jpg`}
+//                   alt={image}
+//                 />
+//               </div>
+//             ))}
+//           </Slider>
+//         </div>
+//       </div>
+//     </div>
+//   )
+// }
 
 const Intro = () => {
   return (
@@ -257,15 +257,7 @@ const Intro = () => {
         <p className='text-justify mb-4'>
           Đó là năm 2007 với trụ sở đầu tiên là 202 Lê Lai, Phường Bến Thành, Quận 1, TP. HCM.
         </p>
-        <div className='ratio-[16/9]  relative my-3 w-auto h-screen'>
-          <iframe
-            className='absolute top-0 left-0 w-full h-full'
-            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-            allowFullScreen
-            src='https://www.youtube.com/embed/sMRts_NBAIY'
-            title='YouTube video player'
-          ></iframe>
-        </div>
+        
         <p className='text-justify mb-4'>
           Ngày nay, từ một công ty trẻ, quyết tâm và đầy tham vọng, Kế toán Anpha đã có mặt tại 5 tỉnh, thành phố của
           Việt Nam. Mỗi năm, chúng tôi hỗ trợ hơn 20.000 doanh nghiệp vừa và nhỏ hoạt động hiệu quả, đúng pháp luật,
@@ -283,7 +275,6 @@ const Intro = () => {
           buộc đối với tất cả cán bộ nhân viên.
         </p>
       </div>
-      <ImageCarousel />
       <picture className=' pt-5'>
         <source
           media='(max-width: 768px)'
@@ -297,27 +288,10 @@ const Intro = () => {
       </picture>
       <div className='my-4'>
         <div className='border-b-2 mb-4'>
-          <h5 className='border-l-3 border-secondary font-bold pl-2 text-primary'>BÀI VIẾT LIÊN QUAN</h5>
+          <h5 className='border-l-3 border-secondary font-bold pl-2 text-primary'>TOP ĐÁNH GIÁ</h5>
         </div>
 
-        <div className='grid gap-3 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'>
-          {posts.map((post, index) => (
-            <div key={index} className='border-b lg:border lg:shadow-lg shadow-none rounded py-2 lg:py-0 h-full'>
-              <div className='flex flex-col  align-middle'>
-                <div className='w-full lg:w-auto'>
-                  <a href={post.link}>
-                    <img src={post.img} alt={post.text} className='w-full object-cover' />
-                  </a>
-                </div>
-                <div className='w-full lg:w-auto'>
-                  <a href={post.link} className='text-reset overflow-hidden line-clamp-3'>
-                    <p className='font-bold mb-0 text-justify lg:text-left p-2 p-lg-0'>{post.text}</p>
-                  </a>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
+        
       </div>
       <ReviewComponent />
       <Comment apiEndpoint='https://api-kinhdoanh.onrender.com/api/v1/comment/create' />

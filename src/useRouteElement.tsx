@@ -94,7 +94,7 @@ const router = createBrowserRouter([
     )
   },
   {
-    path: '/thay-doi-dia-chi',
+    path: '/thay-doi-gpkd',
     element: (
       <HomeLayout>
         <DoiDiaChi />

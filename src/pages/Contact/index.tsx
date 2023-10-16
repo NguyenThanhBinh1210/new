@@ -172,16 +172,12 @@ const Contact = () => {
           </div>
           <div className='mb-3'>
             <small className='text-lg'>
-              <b>cskh@ketoananpha.vn</b>
-              <a
-                className='ml-2'
+              <b
                 style={{ color: '#ea5644' }}
-                href='//fb.com/ketoananpha'
-                target='_blank'
                 rel='nofollow'
               >
-                fb.com/ketoananpha
-              </a>
+                cskh@ketoanalpha.pro.vn
+              </b>
             </small>
           </div>
           <div className='mb-10' style={{ height: '430px' }}>

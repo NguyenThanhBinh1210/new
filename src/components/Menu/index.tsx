@@ -64,29 +64,29 @@ const dataMenu = [
   },
   {
     id: 4,
-    path: '',
+    path: '/thay-doi-gpkd',
     title: 'Thay đổi gpkd',
-    children: [
+    // children: [
       // {
       //   id: 16,
       //   path: '/dich-vu-thay-doi-ten',
       //   title: 'Thay đổi tên'
       // },
-      {
-        id: 17,
-        path: '/thay-doi-dia-chi',
-        title: 'Đổi địa chỉ'
-      },
-      {
-        id: 18,
-        path: '',
-        title: 'Thêm ngành nghề'
-      },
-      {
-        id: 19,
-        path: '',
-        title: 'Tăng vốn điều lệ'
-      },
+      // {
+      //   id: 17,
+      //   path: '/thay-doi-dia-chi',
+      //   title: 'Đổi địa chỉ'
+      // },
+      // {
+      //   id: 18,
+      //   path: '',
+      //   title: 'Thêm ngành nghề'
+      // },
+      // {
+      //   id: 19,
+      //   path: '',
+      //   title: 'Tăng vốn điều lệ'
+      // },
       // {
       //   id: 20,
       //   path: '',
@@ -97,17 +97,17 @@ const dataMenu = [
       //   path: '',
       //   title: 'Đổi đại diện pháp luật'
       // },
-      {
-        id: 23,
-        path: '',
-        title: 'Tạm ngừng hoạt động'
-      },
-      {
-        id: 22,
-        path: '',
-        title: 'Giải thể'
-      },
-    ]
+      // {
+      //   id: 23,
+      //   path: '',
+      //   title: 'Tạm ngừng hoạt động'
+      // },
+      // {
+      //   id: 22,
+      //   path: '',
+      //   title: 'Giải thể'
+      // },
+    // ]
   },
   {
     id: 5,
