@@ -3,10 +3,15 @@ import HomeLayout from './layouts/Home'
 import Home from './pages/Home'
 import Intro from './pages/Intro'
 import Contact from './pages/Contact'
-import DichVuKeToan from './pages/DichVuKeToan'
-import BaoCaoTaiChinh from './pages/BaoCaoTaiChinh'
+import BaoCaoTaiChinh from './pages/DichVuKeToanAll/BaoCaoTaiChinh'
 import DichVuThayDoiTen from './pages/DichVuThayDoiTen'
-import KeToanThueTronGoi from './pages/KeToanThueTronGoi'
+import QuyetToanThue from './pages/DichVuKeToanAll/QuyetToanThue'
+import ThanhLapTNHH from './pages/DichVuThanhLap/ThanhLapTNHH'
+import ThanhLapCoPhan from './pages/DichVuThanhLap/ThanhLapCoPhan'
+import RaSoatSoSach from './pages/DichVuKeToanAll/RaSoatSoSach'
+import HoanThue from './pages/DichVuKeToanAll/HoanThue'
+import KeToanThueTronGoi from './pages/DichVuKeToanAll/KeToanTronGoi'
+import DoiDiaChi from './pages/DoiDiaChi/DoiDiaChi'
 const router = createBrowserRouter([
   {
     path: '/',
@@ -33,14 +38,6 @@ const router = createBrowserRouter([
     )
   },
   {
-    path: '/dich-vu-ke-toan',
-    element: (
-      <HomeLayout>
-        <DichVuKeToan />
-      </HomeLayout>
-    )
-  },
-  {
     path: '/bao-cao-tai-chinh',
     element: (
       <HomeLayout>
@@ -49,10 +46,58 @@ const router = createBrowserRouter([
     )
   },
   {
+    path: '/quyet-toan-thue',
+    element: (
+      <HomeLayout>
+        <QuyetToanThue />
+      </HomeLayout>
+    )
+  },
+  {
+    path: '/soat-xet-so-sach',
+    element: (
+      <HomeLayout>
+        <RaSoatSoSach />
+      </HomeLayout>
+    )
+  },
+  {
+    path: '/hoan-thue',
+    element: (
+      <HomeLayout>
+        <HoanThue />
+      </HomeLayout>
+    )
+  },
+  {
+    path: '/thanh-lap-cong-ty-tnhh',
+    element: (
+      <HomeLayout>
+        <ThanhLapTNHH />
+      </HomeLayout>
+    )
+  },
+  {
+    path: '/thanh-lap-cong-ty-co-phan',
+    element: (
+      <HomeLayout>
+        <ThanhLapCoPhan />
+      </HomeLayout>
+    )
+  },
+  {
     path: '/dich-vu-thay-doi-ten',
     element: (
       <HomeLayout>
         <DichVuThayDoiTen />
+      </HomeLayout>
+    )
+  },
+  {
+    path: '/thay-doi-dia-chi',
+    element: (
+      <HomeLayout>
+        <DoiDiaChi />
       </HomeLayout>
     )
   },

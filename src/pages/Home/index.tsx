@@ -3,7 +3,7 @@ import Section from '~/components/Section/Section'
 import ViewestItem from '~/components/Viewest/ViewestItem'
 import ImageCompany from '~/assets/images/thanh-lap-cong-ty.jpg'
 import DichVuKeToan from '~/assets/images/dich-vu-ke-toan.jpg'
-import DichVuKeToanTronGoi from '~/assets/images/Dich-vu-ke-toan-tron-goi.jpg'
+import DichVuKeToanTronGoi from '~/assets/images/thanh-lap-ctcp-1.png'
 import DichVuThanhLap from '~/assets/images/dich-vu-thanh-lap-cong-ty.jpg'
 import HoKinhDoanhCaThe from '~/assets/images/ho-kinh-doanh-ca-the.jpg'
 import DauTuNuocNgoai from '~/assets/images/thanh-lap-cong-ty-von-dau-tu-nuoc-ngoai.jpg'
@@ -11,8 +11,8 @@ import ThuTucThanhLap from '~/assets/images/thu-tuc-thanh-lap-cong-ty.jpg'
 import CachDatTen from '~/assets/images/cach-dat-ten-cong-ty-doanh-nghiep-150x105.jpg'
 import ThueLaGi from '~/assets/images/thue-mon-bai-la-gi-150x 05.jpg'
 import VonDieuLe from '~/assets/images/von-dieu-le-la-gi-150x105.jpg'
-import CongTyHopDanh from '~/assets/images/cong-ty-hop-danh.jpg'
-import DichVuBaoCao from '~/assets/images/dich-vu-bao-cao-thue.jpg'
+import CongTyHopDanh from '~/assets/images/cong-ty-hop-danh.png'
+import DichVuBaoCao from '~/assets/images/thành lập công ty TNHH 1.png'
 import CongTy from '~/assets/images/cong-ty-tnhh-hay-co-phan.jpg'
 import ThanhLapCongTY from '~/assets/images/dich-vu-bo-sung-nganh-nghe-kinh-doanh.jpg'
 import ThanhLapCongTY1 from '~/assets/images/thanh-lap-cong-ty-tnhh-mot-thanh-vien.jpg'
@@ -23,9 +23,7 @@ import TraCuuMa from '~/assets/images/tra-cuu-ma-nganh-nghe-kinh-doanh.jpg'
 import ThueLaGis from '~/assets/images/thue-la-gi.jpg'
 import ThuTucDangKy from '~/assets/images/thu-tuc-dang-ky-ho-kinh-doanh-ca-the.jpg'
 import CacLoaiThue from '~/assets/images/cac-loai-thue-va-cach-tinh-thue-cho-ho-kinh-doanh-ca-the.jpg'
-import GiaThe from '~/assets/images/giai-the-cong-ty.jpg'
-import TangGiam from '~/assets/images/tang-giam-von-dieu-le.png'
-import Phapluat from '~/assets/images/doi-dai-dien-phap-luat.jpg'
+import GiaThe from '~/assets/images/soát xét 1.png'
 import ThayDoiTen from '~/assets/images/dich-vu-thay-doi-ten-cong-ty.jpg'
 import ThayDiaDiem from '~/assets/images/dich-vi-thay-doi-dia-chi-cong-ty.jpg'
 import BoSung from '~/assets/images/dich-vu-bo-sung-nganh-nghe-kinh-doanh.jpg'
@@ -38,7 +36,7 @@ const Home = () => {
   return (
     <div className='px-3 lg:grid lg:grid-cols-3 gap-x-6 mt-3'>
       <div className='lg:col-span-3 lg:grid grid-cols-2 lg:gap-x-3 lg:mb-6'>
-        <Link to={'/dich-vu-ke-toan'} className='relative'>
+        <Link to={'/'} className='relative'>
           <img src={DichVuKeToan} alt='DichVuKeToan' />
           <div className='absolute bottom-0 h-full w-full bg-gradient-to-b from-transparent to-[rgba(0,0,0,0.4)]'></div>
           <p className='absolute bottom-4 left-4 font-medium text-white text-[17px]'>
@@ -157,8 +155,6 @@ const Home = () => {
             <ViewestItem title='Dịch vụ thành lập công ty hợp danh - Phí 250.000 đồng, 3 ngày' img={CongTyHopDanh} />
             <ViewestItem title='Dịch vụ báo cáo thuế, BCTC cuối năm - Chỉ từ 500.000đ/tháng' img={DichVuBaoCao} />
             <ViewestItem title='Dịch vụ làm thủ tục giải thể công ty, doanh nghiệp - 1.500.000đ' img={GiaThe} />
-            <ViewestItem title='Dịch vụ làm thủ tục thay đổi tăng vốn điều lệ công ty - 500.000đ' img={TangGiam} />
-            <ViewestItem title='Thay đổi người đại diện pháp luật, giám đốc công ty - 500.000đ' img={Phapluat} />
           </div>
         </Section>
       </div>

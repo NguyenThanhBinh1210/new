@@ -91,7 +91,6 @@ function App() {
           href='tel:0971559971'
           className='z-30 rounded-full font-semibold py-2 px-5 bg-green-600 text-white transition-all group-hover:bg-orange-700'
         >
-
           0971559971
         </a>
       </button>

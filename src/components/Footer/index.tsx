@@ -1,52 +1,52 @@
 import Copyright from './Copyright'
 import LogoBot from './LogoBot'
-import phone from '~/assets/images/icons8-phonecall-50.png'
-import mobilePhone from '~/assets/images//icons8-phone-50.png'
-import address from '~/assets/images/icons8-address-50.png'
-import send from '~/assets/images/icons8-send-30.png'
-const dataAddress = [
-  {
-    title: 'Trụ sở TP.hcm',
-    address: '202 Lê Lai, Phường Bến Thành, Quận 1',
-    mail: 'cskh@ketoananpha.vn',
-    phone: '(028) 62.704.111',
-    mobilePhone: '0971 559 971'
-  },
-  {
-    title: 'Trụ sở TP.hcm',
-    address: '202 Lê Lai, Phường Bến Thành, Quận 1',
-    mail: 'cskh@ketoananpha.vn',
-    phone: '(028) 62.704.111',
-    mobilePhone: '0971 559 971'
-  },
-  {
-    title: 'Trụ sở TP.hcm',
-    address: '202 Lê Lai, Phường Bến Thành, Quận 1',
-    mail: 'cskh@ketoananpha.vn',
-    phone: '(028) 62.704.111',
-    mobilePhone: '0971 559 971'
-  },
-  {
-    title: 'Trụ sở TP.hcm',
-    address: '202 Lê Lai, Phường Bến Thành, Quận 1',
-    mail: 'cskh@ketoananpha.vn',
-    phone: '(028) 62.704.111',
-    mobilePhone: '0971 559 971'
-  },
-  {
-    title: 'Trụ sở TP.hcm',
-    address: '202 Lê Lai, Phường Bến Thành, Quận 1',
-    mail: 'cskh@ketoananpha.vn',
-    phone: '(028) 62.704.111',
-    mobilePhone: '0971 559 971'
-  }
-]
+// import phone from '~/assets/images/icons8-phonecall-50.png'
+// import mobilePhone from '~/assets/images//icons8-phone-50.png'
+// import address from '~/assets/images/icons8-address-50.png'
+// import send from '~/assets/images/icons8-send-30.png'
+// const dataAddress = [
+//   {
+//     title: 'Trụ sở TP.hcm',
+//     address: '202 Lê Lai, Phường Bến Thành, Quận 1',
+//     mail: 'cskh@ketoananpha.vn',
+//     phone: '(028) 62.704.111',
+//     mobilePhone: '0971 559 971'
+//   },
+//   {
+//     title: 'Trụ sở TP.hcm',
+//     address: '202 Lê Lai, Phường Bến Thành, Quận 1',
+//     mail: 'cskh@ketoananpha.vn',
+//     phone: '(028) 62.704.111',
+//     mobilePhone: '0971 559 971'
+//   },
+//   {
+//     title: 'Trụ sở TP.hcm',
+//     address: '202 Lê Lai, Phường Bến Thành, Quận 1',
+//     mail: 'cskh@ketoananpha.vn',
+//     phone: '(028) 62.704.111',
+//     mobilePhone: '0971 559 971'
+//   },
+//   {
+//     title: 'Trụ sở TP.hcm',
+//     address: '202 Lê Lai, Phường Bến Thành, Quận 1',
+//     mail: 'cskh@ketoananpha.vn',
+//     phone: '(028) 62.704.111',
+//     mobilePhone: '0971 559 971'
+//   },
+//   {
+//     title: 'Trụ sở TP.hcm',
+//     address: '202 Lê Lai, Phường Bến Thành, Quận 1',
+//     mail: 'cskh@ketoananpha.vn',
+//     phone: '(028) 62.704.111',
+//     mobilePhone: '0971 559 971'
+//   }
+// ]
 const Footer = () => {
   return (
     <div>
       <div className='max-w-[1250px] mx-auto px-3'>
         <LogoBot></LogoBot>
-        <div className='md:grid md:grid-cols-3 lg:grid-cols-4 gap-4 xl:grid-cols-5'>
+        {/* <div className='md:grid md:grid-cols-3 lg:grid-cols-4 gap-4 xl:grid-cols-5'>
           {dataAddress?.map((item, index) => (
             <div key={index}>
               <div className='mb-2'>
@@ -80,7 +80,7 @@ const Footer = () => {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
       <Copyright></Copyright>
     </div>

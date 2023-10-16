@@ -19,30 +19,15 @@ const dataMenu = [
     title: 'Dịch vụ thành lập',
     children: [
       {
-        id: 6,
-        path: '',
-        title: 'Thành lập hộ kinh doanh cá thể'
-      },
-      {
-        id: 7,
-        path: '',
-        title: 'Doanh nghiệp tư nhân'
-      },
-      {
         id: 8,
-        path: '',
+        path: '/thanh-lap-cong-ty-co-phan',
         title: 'Công ty cổ phần'
       },
       {
         id: 9,
-        path: '',
+        path: '/thanh-lap-cong-ty-tnhh',
         title: 'Công ty tnhh'
       },
-      {
-        id: 10,
-        path: '',
-        title: 'Công ty vốn nước ngoài'
-      }
     ]
   },
   {
@@ -62,17 +47,17 @@ const dataMenu = [
       },
       {
         id: 13,
-        path: '',
+        path: '/quyet-toan-thue',
         title: 'quyết toán thuế'
       },
       {
         id: 14,
-        path: '',
+        path: '/soat-xet-so-sach',
         title: 'soát xét sổ sách'
       },
       {
         id: 15,
-        path: '',
+        path: '/hoan-thue',
         title: 'Hoàn thuế gtgt'
       }
     ]
@@ -82,14 +67,14 @@ const dataMenu = [
     path: '',
     title: 'Thay đổi gpkd',
     children: [
-      {
-        id: 16,
-        path: '/dich-vu-thay-doi-ten',
-        title: 'Thay đổi tên'
-      },
+      // {
+      //   id: 16,
+      //   path: '/dich-vu-thay-doi-ten',
+      //   title: 'Thay đổi tên'
+      // },
       {
         id: 17,
-        path: '',
+        path: '/thay-doi-dia-chi',
         title: 'Đổi địa chỉ'
       },
       {
@@ -102,16 +87,26 @@ const dataMenu = [
         path: '',
         title: 'Tăng vốn điều lệ'
       },
+      // {
+      //   id: 20,
+      //   path: '',
+      //   title: 'thêm cổ đông'
+      // },
+      // {
+      //   id: 21,
+      //   path: '',
+      //   title: 'Đổi đại diện pháp luật'
+      // },
       {
-        id: 20,
+        id: 23,
         path: '',
-        title: 'thêm cổ đông'
+        title: 'Tạm ngừng hoạt động'
       },
       {
-        id: 21,
+        id: 22,
         path: '',
-        title: 'Đổi đại diện pháp luật'
-      }
+        title: 'Giải thể'
+      },
     ]
   },
   {
@@ -139,7 +134,7 @@ const Menu = () => {
         <Link
           to={item.path}
           key={item.id}
-          className=' text-[16px] group  flex flex-col lg:px-4 cursor-pointer relative uppercase font-medium'
+          className=' text-[16px] group flex flex-col lg:px-4 cursor-pointer relative uppercase font-medium'
         >
           <div className='py-2 flex items-center gap-x-1'>
             {item.title}
@@ -154,12 +149,12 @@ const Menu = () => {
           </div>
 
           {item?.children && (
-            <div className=' group-hover:flex z-10 lg:absolute top-8 lg:border lg:w-max hidden flex-col bg-white mt-2'>
+            <div className=' group-hover:flex uppercase z-10 lg:absolute top-8 lg:border lg:w-max hidden flex-col bg-white mt-2'>
               {item.children.map((itemMenu: itemMenu) => (
                 <Link
                   key={itemMenu.id}
                   to={itemMenu.path}
-                  className='p-2 hover:bg-blue-300 hover:text-white transition-all lg:normal-case lg:font-normal'
+                  className='p-2 hover:bg-blue-300 uppercase hover:text-white transition-all lg:font-normal'
                 >
                   {itemMenu.title}
                 </Link>

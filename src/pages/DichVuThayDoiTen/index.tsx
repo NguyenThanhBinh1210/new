@@ -11,7 +11,10 @@ const DichVuThayDoiTen = () => {
       <div className='container lg:col-span-2'>
         <div className='row g-2 g-lg-5'>
           <div id='ContentBody_fullpage' className='col-lg-8'>
-            <h1 id='ContentBody_post_title' className='text-[#2a4e9a] font-[400] text-[25px] page-title h4 fs-xxxl-3 fs-xl-4 text-primary'>
+            <h1
+              id='ContentBody_post_title'
+              className='text-[#2a4e9a] font-[400] text-[25px] page-title h4 fs-xxxl-3 fs-xl-4 text-primary'
+            >
               Dịch vụ làm thủ tục thay đổi tên công ty - Phí dịch vụ 500.000đ
             </h1>
             <div id='ContentBody_post_body' className='news-body mb-4 text-justify'>
@@ -28,7 +31,7 @@ const DichVuThayDoiTen = () => {
               </p>
               <div className='custom-muc-luc '>
                 <p className='toc-title '>Nội dung chính:</p>
-                <ul className='noi-dung-chinh ml-4 mb-4 mt-3' >
+                <ul className='noi-dung-chinh ml-4 mb-4 mt-3'>
                   <li>
                     <a href='#Tong-chi-phi-thay-doi-ten-cong-ty,-doanh-nghiep'>
                       Tổng chi phí thay đổi tên công ty, doanh nghiệp
@@ -638,7 +641,6 @@ const DichVuThayDoiTen = () => {
                   >
                     Dịch vụ thay đổi giấy phép kinh doanh
                   </a>{' '}
-
                 </li>
               </ul>
             </div>
@@ -656,9 +658,7 @@ const DichVuThayDoiTen = () => {
                   className='w-[40%] col-5 img-fluid float-start pe-4 pb-4 lazy'
                   src={DichVuKeToan}
                 />
-
                 Thủ tục và hồ sơ chuyển nhượng vốn góp trong Công Ty TNHH
-
               </a>
             </div>
             <div className='clearfix border-bottom border-1 mb-4'>
@@ -668,9 +668,7 @@ const DichVuThayDoiTen = () => {
                   className='w-[40%] col-5 img-fluid float-start pe-4 pb-4 lazy'
                   src={DichVuKeToan}
                 />
-
                 Thủ tục và hồ sơ chuyển nhượng vốn góp trong Công Ty TNHH
-
               </a>
             </div>
             <div className='clearfix border-bottom border-1 mb-4'>
@@ -680,12 +678,9 @@ const DichVuThayDoiTen = () => {
                   className='w-[40%] col-5 img-fluid float-start pe-4 pb-4 lazy'
                   src={Thue}
                 />
-
                 Các lưu ý & lỗi sai cần tránh khi thay đổi Giấy Phép Kinh Doanh
-
               </a>
             </div>
-
           </div>
         </div>
       </div>

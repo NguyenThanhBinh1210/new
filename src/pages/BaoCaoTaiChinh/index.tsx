@@ -1042,7 +1042,10 @@ const BaoCaoTaiChinh = () => {
               </a>
             </div>
             <div className='clearfix border-bottom border-1 mb-4'>
-              <a className='flex text-reset fs-xxxl-5 fs-6' href='/cac-khoan-thue-phai-nop-sau-khi-thanh-lap-cong-ty.html'>
+              <a
+                className='flex text-reset fs-xxxl-5 fs-6'
+                href='/cac-khoan-thue-phai-nop-sau-khi-thanh-lap-cong-ty.html'
+              >
                 <img
                   data-src='/uploads/images/post/144/cac-khoan-thue-phai-nop-sau-khi-thanh-lap-cong-ty.jpg'
                   className='w-[40%] col-5 img-fluid float-start pe-4 pb-4 lazy'

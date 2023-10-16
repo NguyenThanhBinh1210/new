@@ -1,4 +1,3 @@
-
 const Rating = () => {
   return (
     <div className='rounded-lg p-6 border border-[#e5451b]'>

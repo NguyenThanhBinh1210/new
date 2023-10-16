@@ -172,3 +172,7 @@ img {
     transform: translate(0, 0) rotate(0);
   }
 }
+
+.doi-dia-chi p {
+  padding: 3px 0;
+}

@@ -15,7 +15,8 @@ const CallNow = () => {
         <img className='w-[348px] h-[118px] md:w-[160px] md:h-[54.5px]' src={MienBac} alt='MienBac' />
         <img className='w-[348px] h-[118px] md:w-[160px] md:h-[54.5px]' src={MienTrung} alt='MienBac' />
         <img className='w-[348px] h-[118px] md:w-[160px] md:h-[54.5px]' src={MienMan} alt='MienBac' />
-      </div></>
+      </div>
+    </>
   )
 }
 

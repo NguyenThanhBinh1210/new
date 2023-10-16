@@ -1,4 +1,4 @@
-const GpkdItem = ({ img, title }: { img: string, title: string }) => {
+const GpkdItem = ({ img, title }: { img: string; title: string }) => {
   return (
     <div className='cursor-pointer'>
       <div className='w-full'>
