@@ -38,10 +38,12 @@ const Home = () => {
       <div className="lg:col-span-3 lg:grid grid-cols-2 lg:gap-x-3 lg:mb-6">
         <Link to={"/ke-toan-thue-tron-goi"} className="relative">
           <img src={DichVuKeToan} alt="DichVuKeToan" />
-          <div className="absolute bottom-0 h-full w-full bg-gradient-to-b from-transparent to-[rgba(0,0,0,0.4)]"></div>
-          <p className="w-[100%] h-[15%] absolute bottom-3 px-3 mx-auto font-medium text-white text-[17px]">
-            Dịch Vụ Kế Toán (Báo Cáo Thuế) Trọn Gói - Từ 500.000đ/tháng
-          </p>
+          <div className="w-[370px] lg:h-full lg:w-full">
+            <div className="absolute bottom-0 h-full w-full bg-gradient-to-b from-transparent to-[rgba(0,0,0,0.4)]"></div>
+            <p className="absolute bottom-4 mx-2 h-[12%] font-medium text-white text-[17px]">
+              Dịch Vụ Kế Toán (Báo Cáo Thuế) Trọn Gói - Từ 500.000đ/tháng
+            </p>
+          </div>
         </Link>
         <div className="w-[100%] overflow-x-scroll lg:overflow-x-auto mt-2 lg:mt-0 mb-6 lg:mb-0">
           <div className="w-max flex gap-x-3 lg:flex-col lg:gap-y-3 lg:w-full lg:h-full">
