@@ -1,5 +1,4 @@
 import { useRef } from 'react'
-import Banner from '~/assets/images/Banner-lien-he.jpg'
 import Lienhe from '~/assets/images/bt-lien-he.png'
 
 const Contact = () => {
@@ -50,9 +49,9 @@ const Contact = () => {
 
   return (
     <div className='container'>
-      <div className='col-span-2 md:col-span-1' style={{ marginTop: '1rem' }}>
+      {/* <div className='col-span-2 md:col-span-1' style={{ marginTop: '1rem' }}>
         <img src={Banner} className='w-full mb-3' alt='Banner Liên Hệ' />
-      </div>
+      </div> */}
       <div className='grid grid-cols-2 md:grid-cols-3 gap-4' style={{ marginTop: '1.8rem' }}>
         <div className='col-span-2 md:col-span-1 '>
           <h3 className='font-bold text-primary text-2xl'>LIÊN HỆ VỚI CHÚNG TÔI</h3>
@@ -64,7 +63,7 @@ const Contact = () => {
               action='#'
               autoComplete='false'
               ref={formRef}
-              // onSubmit={handleSubmit}
+            // onSubmit={handleSubmit}
             >
               <div>
                 <label htmlFor='name' className='block mb-2 text-sm font-medium text-gray-900 dark:text-white'>
@@ -128,7 +127,7 @@ const Contact = () => {
           </div>
         </div>
         <div className='col-span-2 md:col-span-2 ml-1'>
-          <h4 className='font-bold text-primary text-2xl mb-4'>CÔNG TY DỊCH VỤ KẾ TOÁN ANPHA</h4>
+          <h4 className='font-bold text-primary text-2xl mb-4'>CÔNG TY DỊCH VỤ KẾ TOÁN ALPHA</h4>
           <div className='flex mb-2'>
             <div>
               <p className='text-primary font-bold mb-2'>DỊCH VỤ PHÁP LÝ</p>
