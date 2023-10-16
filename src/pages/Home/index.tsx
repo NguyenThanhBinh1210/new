@@ -36,10 +36,10 @@ const Home = () => {
   return (
     <div className="px-3 lg:grid lg:grid-cols-3 gap-x-6 mt-3">
       <div className="lg:col-span-3 lg:grid grid-cols-2 lg:gap-x-3 lg:mb-6">
-        <Link to={"/"} className="relative">
+        <Link to={"/ke-toan-thue-tron-goi"} className="relative">
           <img src={DichVuKeToan} alt="DichVuKeToan" />
           <div className="absolute bottom-0 h-full w-full bg-gradient-to-b from-transparent to-[rgba(0,0,0,0.4)]"></div>
-          <p className="absolute bottom-4 w-full left-4 font-medium text-white text-[17px]">
+          <p className="absolute bottom-4 pt-40 left-4 font-medium text-white text-[17px]">
             Dịch Vụ Kế Toán (Báo Cáo Thuế) Trọn Gói - Từ 500.000đ/tháng
           </p>
         </Link>

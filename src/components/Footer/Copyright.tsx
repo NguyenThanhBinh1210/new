@@ -1,7 +1,7 @@
 import CopyRightIcon from '~/assets/images/_dmca_premi_badge_4.png'
 const Copyright = () => {
   return (
-    <div className='bg-[#343a40] text-white lg:flex gap-x-2 py-2'>
+    <div className='bg-[#343a40] pl-3 text-white lg:flex gap-x-2 py-2'>
       <div className='lg:w-[1250px] mx-auto lg:flex justify-around lg:gap-x-2'>
         <div>
           <div className='font-semibold text-[18px]'>Thông tin liên hệ:</div>
