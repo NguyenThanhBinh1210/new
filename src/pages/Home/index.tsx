@@ -39,7 +39,7 @@ const Home = () => {
         <Link to={"/ke-toan-thue-tron-goi"} className="relative">
           <img src={DichVuKeToan} alt="DichVuKeToan" />
           <div className="absolute bottom-0 h-full w-full bg-gradient-to-b from-transparent to-[rgba(0,0,0,0.4)]"></div>
-          <p className="absolute bottom-4 pt-40 left-4 font-medium text-white text-[17px]">
+          <p className="w-[100%] h-[15%] absolute bottom-3 px-3 mx-auto font-medium text-white text-[17px]">
             Dịch Vụ Kế Toán (Báo Cáo Thuế) Trọn Gói - Từ 500.000đ/tháng
           </p>
         </Link>
