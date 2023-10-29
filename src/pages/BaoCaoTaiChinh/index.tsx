@@ -31,7 +31,7 @@ const BaoCaoTaiChinh = () => {
               </p>
               <p className='py-3' style={{ textAlign: 'justify' }}>
                 <strong>
-                  Với kinh nghiệm 16&nbsp;năm cung cấp dịch vụ lập bảng báo cáo tài chính, Anpha cam kết hỗ trợ doanh
+                  Với kinh nghiệm 16&nbsp;năm cung cấp dịch vụ lập bảng báo cáo tài chính, Alpha cam kết hỗ trợ doanh
                   nghiệp tăng chi phí hợp lý và tối ưu thuế theo đúng quy định pháp luật.&nbsp;
                 </strong>
               </p>
@@ -42,8 +42,8 @@ const BaoCaoTaiChinh = () => {
                     <a href='#Chi-phi-dich-vu-lam-bao-cao-tai-chinh'>Chi phí dịch vụ làm báo cáo tài chính</a>
                   </li>
                   <li>
-                    <a href='#Doanh-nghiep-can-cung-cap-nhung-gi-khi-lam-bao-cao-tai-chinh-(BCTC)-tai-Anpha?'>
-                      Doanh nghiệp cần cung cấp những gì khi làm báo cáo tài chính (BCTC) tại Anpha?
+                    <a href='#Doanh-nghiep-can-cung-cap-nhung-gi-khi-lam-bao-cao-tai-chinh-(BCTC)-tai-Alpha?'>
+                      Doanh nghiệp cần cung cấp những gì khi làm báo cáo tài chính (BCTC) tại Alpha?
                     </a>
                   </li>
                   <li>
@@ -52,8 +52,8 @@ const BaoCaoTaiChinh = () => {
                     </a>
                   </li>
                   <li>
-                    <a href='#Nhiem-vu-cua-Anpha-khi-nhan-lam-bao-cao-tai-chinh'>
-                      Nhiệm vụ của Anpha khi nhận làm báo cáo tài chính
+                    <a href='#Nhiem-vu-cua-Alpha-khi-nhan-lam-bao-cao-tai-chinh'>
+                      Nhiệm vụ của Alpha khi nhận làm báo cáo tài chính
                     </a>
                   </li>
                   <li>
@@ -67,7 +67,7 @@ const BaoCaoTaiChinh = () => {
                 <a id='buoc1'>Chi phí dịch vụ làm báo cáo tài chính</a>
               </h3>
               <p className='my-2'>
-                Áp dụng trên toàn hệ thống của Anpha bao gồm Hà Nội, Đà Nẵng, TP. HCM, Đồng Nai, Bình Dương
+                Áp dụng trên toàn hệ thống của Alpha bao gồm Hà Nội, Đà Nẵng, TP. HCM, Đồng Nai, Bình Dương
               </p>
               <table className='table-post-custom' style={{ width: '100%' }}>
                 <tbody>
@@ -177,7 +177,7 @@ const BaoCaoTaiChinh = () => {
                             0902 60 2345
                           </a>
                         </strong>{' '}
-                        để Anpha tư vấn và báo giá
+                        để Alpha tư vấn và báo giá
                       </p>
                     </td>
                   </tr>
@@ -318,7 +318,7 @@ const BaoCaoTaiChinh = () => {
                             0902 60 2345
                           </a>
                         </strong>{' '}
-                        để Anpha tư vấn và báo giá
+                        để Alpha tư vấn và báo giá
                       </p>
                     </td>
                   </tr>
@@ -409,7 +409,7 @@ const BaoCaoTaiChinh = () => {
                             0902 60 2345
                           </a>
                         </strong>{' '}
-                        để Anpha tư vấn và báo giá
+                        để Alpha tư vấn và báo giá
                       </p>
                     </td>
                   </tr>
@@ -421,14 +421,14 @@ const BaoCaoTaiChinh = () => {
               <CallNow></CallNow>
               <h3
                 className='sub-title mt-4'
-                id='Doanh-nghiep-can-cung-cap-nhung-gi-khi-lam-bao-cao-tai-chinh-(BCTC)-tai-Anpha?'
+                id='Doanh-nghiep-can-cung-cap-nhung-gi-khi-lam-bao-cao-tai-chinh-(BCTC)-tai-Alpha?'
               >
                 <a id='buoc2' className='mt-3'>
-                  Doanh nghiệp cần cung cấp những gì khi làm báo cáo tài chính (BCTC) tại Anpha?
+                  Doanh nghiệp cần cung cấp những gì khi làm báo cáo tài chính (BCTC) tại Alpha?
                 </a>
               </h3>
               <p style={{ textAlign: 'justify' }}>
-                Khi chọn dịch vụ báo cáo tài chính tại Anpha, bạn chỉ cần cung cấp các hồ sơ sau:
+                Khi chọn dịch vụ báo cáo tài chính tại Alpha, bạn chỉ cần cung cấp các hồ sơ sau:
               </p>
               <p>
                 <strong>
@@ -530,8 +530,8 @@ const BaoCaoTaiChinh = () => {
                 </tbody>
               </table>
               &nbsp;
-              <h3 className='sub-title' id='Nhiem-vu-cua-Anpha-khi-nhan-lam-bao-cao-tai-chinh'>
-                <a id='buoc4'>Nhiệm vụ của Anpha khi nhận làm báo cáo tài chính</a>
+              <h3 className='sub-title' id='Nhiem-vu-cua-Alpha-khi-nhan-lam-bao-cao-tai-chinh'>
+                <a id='buoc4'>Nhiệm vụ của Alpha khi nhận làm báo cáo tài chính</a>
               </h3>
               <ol>
                 <li className='my-2' aria-level={1}>
@@ -590,7 +590,7 @@ const BaoCaoTaiChinh = () => {
               </ol>
               <p style={{ textAlign: 'justify' }}>
                 <u>Lưu ý</u>: Hỗ trợ lập bảng báo cáo tài chính miễn phí nếu khách hàng đang sử dụng “Dịch vụ kế toán
-                trọn gói” tại Anpha.
+                trọn gói” tại Alpha.
               </p>
               <p>
                 <em aria-hidden='true' className='fa-angle-double-right fas' style={{ color: '#e5451b' }} />
@@ -598,7 +598,7 @@ const BaoCaoTaiChinh = () => {
                 <span style={{ color: '#e5451b' }}>
                   <strong>Xem thêm:</strong>
                 </span>
-                &nbsp;<a href='https://ketoananpha.vn/dich-vu-ke-toan-tron-goi.html'>Dịch vụ kế toán trọn gói</a>.
+                &nbsp;<a href='https://ketoanAlpha.vn/dich-vu-ke-toan-tron-goi.html'>Dịch vụ kế toán trọn gói</a>.
               </p>
               <h3 className='sub-title' id='Cac-cau-hoi-thuong-gap-khi-lam bao-cao-tai-chinh'>
                 <a id='buoc5'>Các câu hỏi thường gặp khi làm&nbsp;báo cáo tài chính</a>
@@ -628,13 +628,13 @@ const BaoCaoTaiChinh = () => {
                 <hr />
                 <p style={{ textAlign: 'justify' }}>
                   <span className='mr-2 font-bold text-[20px] text-[#e5451b]'>+</span>
-                  <strong>3. Bảng giá dịch vụ làm báo cáo tài chính tại Anpha?</strong>
+                  <strong>3. Bảng giá dịch vụ làm báo cáo tài chính tại Alpha?</strong>
                 </p>
                 <blockquote className='pl-3 mt-3 border-[#e5451b] border-l-[2px] '>
                   <p style={{ textAlign: 'justify' }}>
-                    Dịch vụ làm báo cáo tài chính tại Anpha được chia theo nhóm ngành: tư vấn dịch vụ; thương mại; thi
+                    Dịch vụ làm báo cáo tài chính tại Alpha được chia theo nhóm ngành: tư vấn dịch vụ; thương mại; thi
                     công xây dựng, trang trí nội thất, sản xuất, gia công, nhà hàng, lắp đặt. Bạn xem chi tiết tại link
-                    bên dưới&nbsp;hoặc gọi Anpha theo số
+                    bên dưới&nbsp;hoặc gọi Alpha theo số
                     <strong>
                       &nbsp;
                       <a href='tel:0901042555' rel='nofollow' target='_blank'>
@@ -700,15 +700,15 @@ const BaoCaoTaiChinh = () => {
                   <p style={{ textAlign: 'justify' }}>
                     Nếu doanh nghiệp có quy mô vừa, nhỏ và siêu nhỏ; đang trong thời gian biến động nhân sự kế toán; kế
                     toán viên chưa có kinh nghiệm lập bảng BCTC… thì nên cân nhắc việc sử dụng dịch vụ báo cáo tài chính
-                    tại Anpha. Bởi:
+                    tại Alpha. Bởi:
                     <br />
                     - Tiết kiệm tối đa chi phí so với việc thuế kế toán viên;
                     <br />
                     - Được tư vấn chi tiết về chi phí khi tính thuế TNDN một cách nhanh chóng; &nbsp;
                     <br />
-                    - Đảm bảo thời gian nộp báo cáo tài chính và chịu toàn bộ trách nhiệm về số liệu do Anpha thực hiện;
+                    - Đảm bảo thời gian nộp báo cáo tài chính và chịu toàn bộ trách nhiệm về số liệu do Alpha thực hiện;
                     <br />- Số liệu kế toán sẽ được thực hiện một cách rõ ràng và chính xác nhất bởi sự lành nghề của
-                    đội ngũ kế toán Anpha.
+                    đội ngũ kế toán Alpha.
                   </p>
                 </blockquote>
                 <hr />
@@ -923,10 +923,10 @@ const BaoCaoTaiChinh = () => {
             </div>
             <a className='text-primary' href='/dich-vu-bao-cao-thue.html'>
               <img
-                data-src='https://ketoananpha.vn/uploads/images/post/160-cu/dich-vu-bao-cao-thue.jpg'
+                data-src='https://ketoanAlpha.vn/uploads/images/post/160-cu/dich-vu-bao-cao-thue.jpg'
                 className='img-fluid lazy'
                 alt='Dịch vụ báo cáo thuế, BCTC cuối năm - Chỉ từ 500.000đ/tháng'
-                src='https://ketoananpha.vn/uploads/images/post/160-cu/dich-vu-bao-cao-thue.jpg'
+                src='https://ketoanAlpha.vn/uploads/images/post/160-cu/dich-vu-bao-cao-thue.jpg'
               />
               <p className='my-3 pb-3 text-[#2a4e9a] border-b font-semibold border-bottom border-1 fw-bold'>
                 Dịch vụ báo cáo thuế, BCTC cuối năm - Chỉ từ 500.000đ/tháng
@@ -964,7 +964,7 @@ const BaoCaoTaiChinh = () => {
                   <a
                     className='text-reset'
                     title='Dịch vụ kế toán trọn gói'
-                    href='https://ketoananpha.vn/dich-vu-ke-toan-tron-goi.html'
+                    href='https://ketoanAlpha.vn/dich-vu-ke-toan-tron-goi.html'
                   >
                     Dịch vụ kế toán trọn gói
                   </a>
@@ -975,7 +975,7 @@ const BaoCaoTaiChinh = () => {
                   <a
                     className='text-reset'
                     title='làm lại sổ sách kế toán'
-                    href='https://ketoananpha.vn/dich-vu-lam-so-sach-ke-toan.html'
+                    href='https://ketoanAlpha.vn/dich-vu-lam-so-sach-ke-toan.html'
                   >
                     làm lại sổ sách kế toán
                   </a>
@@ -985,7 +985,7 @@ const BaoCaoTaiChinh = () => {
                   <a
                     className='text-reset'
                     title='Dịch vụ khai thuế ban đầu'
-                    href='https://ketoananpha.vn/thue-ban-dau-va-mua-hoa-don.html'
+                    href='https://ketoanAlpha.vn/thue-ban-dau-va-mua-hoa-don.html'
                   >
                     Dịch vụ khai thuế ban đầu
                   </a>
@@ -996,7 +996,7 @@ const BaoCaoTaiChinh = () => {
                   <a
                     className='text-reset'
                     title='hóa đơn điện tử Viettel'
-                    href='https://ketoananpha.vn/dich-vu-hoa-don-dien-tu-viettel-va-easyinvoice.html'
+                    href='https://ketoanAlpha.vn/dich-vu-hoa-don-dien-tu-viettel-va-easyinvoice.html'
                   >
                     hóa đơn điện tử Viettel
                   </a>{' '}

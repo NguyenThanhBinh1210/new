@@ -8,35 +8,35 @@ import LogoBot from './LogoBot'
 //   {
 //     title: 'Trụ sở TP.hcm',
 //     address: '202 Lê Lai, Phường Bến Thành, Quận 1',
-//     mail: 'cskh@ketoananpha.vn',
+//     mail: 'cskh@ketoanAlpha.vn',
 //     phone: '(028) 62.704.111',
 //     mobilePhone: '0971 559 971'
 //   },
 //   {
 //     title: 'Trụ sở TP.hcm',
 //     address: '202 Lê Lai, Phường Bến Thành, Quận 1',
-//     mail: 'cskh@ketoananpha.vn',
+//     mail: 'cskh@ketoanAlpha.vn',
 //     phone: '(028) 62.704.111',
 //     mobilePhone: '0971 559 971'
 //   },
 //   {
 //     title: 'Trụ sở TP.hcm',
 //     address: '202 Lê Lai, Phường Bến Thành, Quận 1',
-//     mail: 'cskh@ketoananpha.vn',
+//     mail: 'cskh@ketoanAlpha.vn',
 //     phone: '(028) 62.704.111',
 //     mobilePhone: '0971 559 971'
 //   },
 //   {
 //     title: 'Trụ sở TP.hcm',
 //     address: '202 Lê Lai, Phường Bến Thành, Quận 1',
-//     mail: 'cskh@ketoananpha.vn',
+//     mail: 'cskh@ketoanAlpha.vn',
 //     phone: '(028) 62.704.111',
 //     mobilePhone: '0971 559 971'
 //   },
 //   {
 //     title: 'Trụ sở TP.hcm',
 //     address: '202 Lê Lai, Phường Bến Thành, Quận 1',
-//     mail: 'cskh@ketoananpha.vn',
+//     mail: 'cskh@ketoanAlpha.vn',
 //     phone: '(028) 62.704.111',
 //     mobilePhone: '0971 559 971'
 //   }

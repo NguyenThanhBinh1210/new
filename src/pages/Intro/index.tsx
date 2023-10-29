@@ -28,7 +28,7 @@ const allReviews = [
     name: 'Huyình Bắc',
     date: '01-12-2021 lúc 21:44',
     rating: 5,
-    content: 'Ngày mình hợp tác với Anpha có 3 nhân viên...',
+    content: 'Ngày mình hợp tác với Alpha có 3 nhân viên...',
     usefulCount: 37
   },
   {
@@ -36,7 +36,7 @@ const allReviews = [
     date: '19-11-2021 lúc 23:21',
     rating: 5,
     content:
-      'Sử dụng dịch vụ của Anpha 7 năm rồi và rất hài lòng, nhưng năm vừa rồi là năm đầu tiên Anpha không tặng quà trung thu cho mình, làm mình cứ chờ, bớt hài lòng rồi :)',
+      'Sử dụng dịch vụ của Alpha 7 năm rồi và rất hài lòng, nhưng năm vừa rồi là năm đầu tiên Alpha không tặng quà trung thu cho mình, làm mình cứ chờ, bớt hài lòng rồi :)',
     usefulCount: 19
   },
   {
@@ -58,7 +58,7 @@ const allReviews = [
     date: '04-12-2020 lúc 21:23',
     rating: 5,
     content:
-      '3 năm đồng hành cùng Anpha chưa bao giờ phải phàn nàn, công ty từ 3 nhân viên giờ giấn trăm nhân viên, thuậ sức thuê kế toán riêng, riêng mảng thuế vẫn tin tưởng giao phó hoàn toàn cho Anpha. cảm ơn các bạn, nhất là bạn Hương kế toán trưởng và bạn Xuân kế toán phụ trách công ty mình.',
+      '3 năm đồng hành cùng Alpha chưa bao giờ phải phàn nàn, công ty từ 3 nhân viên giờ giấn trăm nhân viên, thuậ sức thuê kế toán riêng, riêng mảng thuế vẫn tin tưởng giao phó hoàn toàn cho Alpha. cảm ơn các bạn, nhất là bạn Hương kế toán trưởng và bạn Xuân kế toán phụ trách công ty mình.',
     usefulCount: 1
   },
   {
@@ -66,7 +66,7 @@ const allReviews = [
     date: '13-09-2018 lúc 18:53',
     rating: 5,
     content:
-      'Anpha đồng hành cùng công ty Kỳ Sóng Rồng Việt từ những ngày bắt đầu 2008. 10 năm qua vẫn luôn đặt niềm tin vào các bạn, sự tư vấn kịp thời, chính xác của các bạn góp phần không nhỏ góng sự thành công của Rồng Việt ngày hôm nay. Sẽ tiếp tục tin tưởng các dịch vụ của các bạn, cảm ơn rất nhiều.',
+      'Alpha đồng hành cùng công ty Kỳ Sóng Rồng Việt từ những ngày bắt đầu 2008. 10 năm qua vẫn luôn đặt niềm tin vào các bạn, sự tư vấn kịp thời, chính xác của các bạn góp phần không nhỏ góng sự thành công của Rồng Việt ngày hôm nay. Sẽ tiếp tục tin tưởng các dịch vụ của các bạn, cảm ơn rất nhiều.',
     usefulCount: 1
   }
 ]
@@ -195,13 +195,13 @@ const ReviewComponent = () => {
 //   return (
 //     <div className='row gutter my-3 '>
 //       <div className='col-md-12 col-lg-12'>
-//         <div className="wrap-slide bg-[url('https://ketoananpha.vn/uploads/images/post/about-background-01.png')]">
+//         <div className="wrap-slide bg-[url('https://ketoanAlpha.vn/uploads/images/post/about-background-01.png')]">
 //           <Slider {...settings}>
 //             {images.map((image, index) => (
 //               <div key={index}>
 //                 <img
 //                   className='w-100 p-5'
-//                   src={`https://ketoananpha.vn/uploads/images/post/${image}.jpg`}
+//                   src={`https://ketoanAlpha.vn/uploads/images/post/${image}.jpg`}
 //                   alt={image}
 //                 />
 //               </div>
@@ -218,11 +218,11 @@ const Intro = () => {
     <div>
       <div className='grid md:grid-cols-1 lg:grid-cols-1 gap-4'>
         <div className='hidden md:block lg:block'>
-          <img
+          {/* <img
             alt=''
-            src='https://ketoananpha.vn/uploads/images/icons/Anpha-hon-ca-su-mong-doi.jpg'
+            src={`https://ketoanAlpha.vn/uploads/images/icons/Alpha-hon-ca-su-mong-doi.jpg`}
             className='w-full'
-          />
+          /> */}
         </div>
 
         <div className='flex items-center justify-center my-4'>
@@ -250,41 +250,38 @@ const Intro = () => {
         </p>
         <p className='text-justify mb-4'>
           Thực tế, không phải một, mà là một vài vấn đề đặt ra như bạn thấy. Và những vấn đề này, chính là khởi nguồn
-          động lực cho chúng tôi quyết định thành lập công ty Kế toán Anpha, với mong muốn tạo ra công cụ phù hợp,
+          động lực cho chúng tôi quyết định thành lập công ty Kế toán Alpha, với mong muốn tạo ra công cụ phù hợp,
           chuyên nghiệp, tối ưu về hai mảng Kế toán và Pháp lý, giúp doanh nghiệp tiết kiệm thời gian, chi phí, nhân lực
           và tập trung hơn vào phát triển kinh doanh.
         </p>
-        <p className='text-justify mb-4'>
-          Đó là năm 2007 với trụ sở đầu tiên là 202 Lê Lai, Phường Bến Thành, Quận 1, TP. HCM.
-        </p>
         
         <p className='text-justify mb-4'>
-          Ngày nay, từ một công ty trẻ, quyết tâm và đầy tham vọng, Kế toán Anpha đã có mặt tại 5 tỉnh, thành phố của
+          Ngày nay, từ một công ty trẻ, quyết tâm và đầy tham vọng, Kế toán Alpha đã có mặt tại 5 tỉnh, thành phố của
           Việt Nam. Mỗi năm, chúng tôi hỗ trợ hơn 20.000 doanh nghiệp vừa và nhỏ hoạt động hiệu quả, đúng pháp luật,
           chuyên sâu về các gói dịch vụ: tư vấn thủ tục pháp lý về thành lập doanh nghiệp, thay đổi giấy phép kinh
           doanh, kê khai, quyết toán thuế… và trở thành đơn vị đứng đầu trong lĩnh vực Kế toán và Pháp lý tại HN, TP.
           HCM.
         </p>
         <p className='text-justify mb-4'>
-          Trong nhiều năm đồng hành phát triển với các doanh nghiệp trong và ngoài nước, Anpha luôn cố gắng mang lại cho
+          Trong nhiều năm đồng hành phát triển với các doanh nghiệp trong và ngoài nước, Alpha luôn cố gắng mang lại cho
           khách hàng trải nghiệm An Tâm Tuyệt Đối. Không chỉ vậy, chúng tôi tiếp tục hoàn thiện để trở thành "phiên bản
           tốt nhất của chính mình" với: giải pháp tối ưu, tiết kiệm chi phí, minh bạch thông tin, nghiệp vụ chính xác.
         </p>
         <p className='text-justify'>
-          Tại Anpha, hoàn thành nhiệm vụ và mang đến cho khách hàng trải nghiệm Hơn Cả Sự Mong Đợi là trách nhiệm bắt
+          Tại Alpha, hoàn thành nhiệm vụ và mang đến cho khách hàng trải nghiệm Hơn Cả Sự Mong Đợi là trách nhiệm bắt
           buộc đối với tất cả cán bộ nhân viên.
         </p>
       </div>
       <picture className=' pt-5'>
         <source
           media='(max-width: 768px)'
-          srcSet='https://ketoananpha.vn/uploads/images/post/about-background-mobile-2.jpg'
+          srcSet='https://ketoanAlpha.vn/uploads/images/post/about-background-mobile-2.jpg'
         />
-        <img
-          src='https://ketoananpha.vn/uploads/images/post/about-background-02.jpg'
+        {/* <img
+          src='https://ketoanAlpha.vn/uploads/images/post/about-background-02.jpg'
           alt='Description of Image'
           className='w-full object-cover'
-        />
+        /> */}
       </picture>
       <div className='my-4'>
         <div className='border-b-2 mb-4'>

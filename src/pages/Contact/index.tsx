@@ -176,7 +176,7 @@ const Contact = () => {
                 style={{ color: '#ea5644' }}
                 rel='nofollow'
               >
-                cskh@ketoanalpha.pro.vn
+                dichvuketoanalpha@gmail.com
               </b>
             </small>
           </div>

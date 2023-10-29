@@ -23,9 +23,9 @@ const DichVuThayDoiTen = () => {
               </p>
               <p className='py-2' style={{ textAlign: 'justify' }}>
                 <strong>
-                  Trong vòng 3 ngày, Anpha sẽ hoàn thành bộ hồ sơ thay đổi tên doanh nghiệp nói chung hay thay đổi tên
+                  Trong vòng 3 ngày, Alpha sẽ hoàn thành bộ hồ sơ thay đổi tên doanh nghiệp nói chung hay thay đổi tên
                   công ty cổ phần/thay đổi tên công ty TNHH nói riêng. Thủ tục thay đổi tên công ty có khá nhiều điểm
-                  cần lưu ý trước và sau khi thực hiện. Vậy nên, hãy tham khảo dịch vụ đổi tên doanh nghiệp tại Anpha để
+                  cần lưu ý trước và sau khi thực hiện. Vậy nên, hãy tham khảo dịch vụ đổi tên doanh nghiệp tại Alpha để
                   tránh các sai sót không nên có.
                 </strong>
               </p>
@@ -46,8 +46,8 @@ const DichVuThayDoiTen = () => {
                     <a href='#2-thong-tin-doanh-nghiep-can-cung-cap'>2 thông tin doanh nghiệp cần cung cấp</a>
                   </li>
                   <li>
-                    <a href='#7-viec-Anpha-thay-ban-thuc-hien-khi-lam-thu-tuc-doi-ten-cong-ty'>
-                      7 việc Anpha thay bạn thực hiện khi làm thủ tục đổi tên công ty
+                    <a href='#7-viec-Alpha-thay-ban-thuc-hien-khi-lam-thu-tuc-doi-ten-cong-ty'>
+                      7 việc Alpha thay bạn thực hiện khi làm thủ tục đổi tên công ty
                     </a>
                   </li>
                   <li>
@@ -79,7 +79,7 @@ const DichVuThayDoiTen = () => {
               </p>
               <p style={{ textAlign: 'justify' }}>
                 <span style={{ color: '#3472b8' }}>
-                  <strong>Phí dịch vụ tại Anpha: 500.000 đồng</strong>
+                  <strong>Phí dịch vụ tại Alpha: 500.000 đồng</strong>
                 </span>
               </p>
               <p style={{ textAlign: 'justify' }}>
@@ -103,7 +103,7 @@ const DichVuThayDoiTen = () => {
                 </li>
               </ul>
               <p style={{ textAlign: 'justify' }}>
-                Khi sử dụng dịch vụ thay đổi tên công ty, doanh nghiệp tại Anpha, bạn tiết kiệm tối đa không chỉ thời
+                Khi sử dụng dịch vụ thay đổi tên công ty, doanh nghiệp tại Alpha, bạn tiết kiệm tối đa không chỉ thời
                 gian mà còn các khoản phí như giấy, mực in ấn, đi lại… Bạn chỉ cần thanh toán tổng chi phí trọn gói là
                 1.400.000 đồng.<strong>&nbsp;</strong>
               </p>
@@ -123,11 +123,11 @@ const DichVuThayDoiTen = () => {
               </p>
               <p style={{ textAlign: 'justify' }}>
                 Tên công ty ảnh hưởng trực tiếp đến các giấy tờ, công văn của doanh nghiệp trong quá trình hoạt động. Do
-                vậy, dịch vụ thay đổi tên công ty của Anpha luôn đảm bảo tốc độ hoàn thành nhanh chóng, chỉ từ 3-4 ngày
+                vậy, dịch vụ thay đổi tên công ty của Alpha luôn đảm bảo tốc độ hoàn thành nhanh chóng, chỉ từ 3-4 ngày
                 làm việc.
               </p>
               <p style={{ textAlign: 'justify' }}>
-                Sau khi Anpha hoàn thành bộ hồ sơ thay đổi tên công ty và nộp hồ sơ tại Sở KH&amp;ĐT. Trong vòng 3 ngày
+                Sau khi Alpha hoàn thành bộ hồ sơ thay đổi tên công ty và nộp hồ sơ tại Sở KH&amp;ĐT. Trong vòng 3 ngày
                 làm việc, Sở KH&amp;ĐT sẽ kiểm tra và giải quyết hồ sơ cho doanh nghiệp.
               </p>
               <CallNow></CallNow>
@@ -136,7 +136,7 @@ const DichVuThayDoiTen = () => {
                 <a id='buoc3'>2 thông tin doanh nghiệp cần cung cấp</a>
               </h3>
               <p style={{ textAlign: 'justify' }}>
-                Hãy để Anpha thay bạn hoàn thành tất cả mọi thủ tục pháp lý rườm rà. Bạn chỉ cần cung cấp cho Anpha 2
+                Hãy để Alpha thay bạn hoàn thành tất cả mọi thủ tục pháp lý rườm rà. Bạn chỉ cần cung cấp cho Alpha 2
                 thông tin cơ bản sau:
               </p>
               <div className='custom-quote'>
@@ -157,12 +157,12 @@ const DichVuThayDoiTen = () => {
                   title='YouTube video player'
                 />
               </div>
-              <h3 className='sub-title' id='7-viec-Anpha-thay-ban-thuc-hien-khi-lam-thu-tuc-doi-ten-cong-ty'>
-                <a id='buoc4'>7 việc Anpha thay bạn thực hiện khi làm thủ tục đổi tên công ty</a>
+              <h3 className='sub-title' id='7-viec-Alpha-thay-ban-thuc-hien-khi-lam-thu-tuc-doi-ten-cong-ty'>
+                <a id='buoc4'>7 việc Alpha thay bạn thực hiện khi làm thủ tục đổi tên công ty</a>
               </h3>
               <p style={{ textAlign: 'justify' }}>
                 Trên thực tế, nếu bạn tự thực hiện thủ tục thay đổi tên doanh nghiệp, bạn sẽ phải chuẩn bị khá nhiều hồ
-                sơ cùng danh sách dài những việc phải làm. Vì thế, hãy đơn giản hóa mọi việc và để Anpha hỗ trợ bạn nhé.
+                sơ cùng danh sách dài những việc phải làm. Vì thế, hãy đơn giản hóa mọi việc và để Alpha hỗ trợ bạn nhé.
               </p>
               <ol>
                 <li>
@@ -199,7 +199,7 @@ const DichVuThayDoiTen = () => {
                 <u>Lưu ý:</u>&nbsp;
               </p>
               <p style={{ textAlign: 'justify' }}>
-                Toàn bộ quá trình giao nhận hồ sơ, giấy tờ đều được Anpha sử dụng dịch vụ miễn phí tận nơi.
+                Toàn bộ quá trình giao nhận hồ sơ, giấy tờ đều được Alpha sử dụng dịch vụ miễn phí tận nơi.
               </p>
               <h3 className='sub-title' id='4-luu-y-sau-khi-thay-doi-ten-doanh-nghiep'>
                 <a id='buoc5'>4 lưu ý sau khi thay đổi tên doanh nghiệp</a>
@@ -231,7 +231,7 @@ const DichVuThayDoiTen = () => {
                   <strong>Xem chi tiết:</strong>
                 </span>
                 &nbsp;
-                <a href='https://ketoananpha.vn/ho-so-thay-doi-ten-cong-ty.html'>
+                <a href='https://ketoanAlpha.vn/ho-so-thay-doi-ten-cong-ty.html'>
                   Hồ sơ và thủ tục thay đổi tên công ty
                 </a>
                 .
@@ -259,7 +259,7 @@ const DichVuThayDoiTen = () => {
                       <strong>Xem chi tiết:</strong>
                     </span>
                     &nbsp;
-                    <a href='https://ketoananpha.vn/doi-ten-cong-ty.html#buoc5'>Những lưu ý sau khi thay đổi công ty</a>
+                    <a href='https://ketoanAlpha.vn/doi-ten-cong-ty.html#buoc5'>Những lưu ý sau khi thay đổi công ty</a>
                     .
                   </p>
                 </blockquote>
@@ -271,7 +271,7 @@ const DichVuThayDoiTen = () => {
                 <blockquote className='pl-3 mt-3 border-[#e5451b] border-l-[2px]'>
                   <p style={{ textAlign: 'justify' }}>
                     Được. Tùy vào định hướng phát triển mà doanh nghiệp thực hiện thủ tục thay đổi tên công ty. Tuy
-                    nhiên, để tránh những sai phạm không nên có, hãy liên hệ Anpha theo số&nbsp;
+                    nhiên, để tránh những sai phạm không nên có, hãy liên hệ Alpha theo số&nbsp;
                     <strong>
                       <a href='tel:0984477711 ' rel='nofollow' target='_blank'>
                         0984 477 711 (Miền Bắc)
@@ -302,7 +302,7 @@ const DichVuThayDoiTen = () => {
                       <strong>Xem chi tiết:</strong>
                     </span>
                     <strong>&nbsp;</strong>
-                    <a href='https://ketoananpha.vn/loi-sai-khi-thay-doi-giay-phep-kinh-doanh.html'>
+                    <a href='https://ketoanAlpha.vn/loi-sai-khi-thay-doi-giay-phep-kinh-doanh.html'>
                       Các lưu ý và lỗi sai cần tránh khi thay đổi tên công ty
                     </a>
                     .
@@ -317,7 +317,7 @@ const DichVuThayDoiTen = () => {
                   <p style={{ textAlign: 'justify' }}>
                     Tùy vào loại hình doanh nghiệp mà hồ sơ thay đổi tên công ty cổ phần hay hồ sơ thay đổi tên công ty
                     TNHH sẽ có vài điểm khác nhau. Bạn có thể xem chi tiết tại link bài viết ngay bên dưới hoặc chọn lựa
-                    dịch vụ thay đổi tên công ty của Anpha - phí dịch vụ 500.000 đồng để đơn giản hóa mọi thủ tục.
+                    dịch vụ thay đổi tên công ty của Alpha - phí dịch vụ 500.000 đồng để đơn giản hóa mọi thủ tục.
                   </p>
                   <p style={{ textAlign: 'justify' }}>
                     <em aria-hidden='true' />
@@ -329,7 +329,7 @@ const DichVuThayDoiTen = () => {
                       <strong>Tham khảo:</strong>
                     </span>
                     <strong>&nbsp;</strong>
-                    <a href='https://ketoananpha.vn/ho-so-thay-doi-ten-cong-ty.html'>
+                    <a href='https://ketoanAlpha.vn/ho-so-thay-doi-ten-cong-ty.html'>
                       Hồ sơ, thủ tục thay đổi tên công ty - Có file mẫu
                     </a>
                     .
@@ -338,11 +338,11 @@ const DichVuThayDoiTen = () => {
                 <hr />
                 <p style={{ textAlign: 'justify' }}>
                   <span className='mr-2 font-bold text-[20px] text-[#e5451b]'>+</span>
-                  <strong>4. Chi phí trọn gói đổi tên doanh nghiệp tại Anpha?</strong>
+                  <strong>4. Chi phí trọn gói đổi tên doanh nghiệp tại Alpha?</strong>
                 </p>
                 <blockquote className='pl-3 mt-3 border-[#e5451b] border-l-[2px]'>
                   <p style={{ textAlign: 'justify' }}>
-                    Tổng chi phí trọn gói thay đổi tên công ty tại Anpha là 1.400.000 đồng, bao gồm phí dịch vụ 500.000
+                    Tổng chi phí trọn gói thay đổi tên công ty tại Alpha là 1.400.000 đồng, bao gồm phí dịch vụ 500.000
                     đồng và lệ phí nộp nhà nước 900.000 đồng.
                   </p>
                   <p style={{ textAlign: 'justify' }}>
@@ -355,7 +355,7 @@ const DichVuThayDoiTen = () => {
                       <strong>Xem chi tiết:</strong>
                     </span>
                     <strong>&nbsp;</strong>
-                    <a href='https://ketoananpha.vn/doi-ten-cong-ty.html#buoc1'>
+                    <a href='https://ketoanAlpha.vn/doi-ten-cong-ty.html#buoc1'>
                       Tổng chi phí thay đổi tên doanh nghiệp
                     </a>
                     .
@@ -368,8 +368,8 @@ const DichVuThayDoiTen = () => {
                 </p>
                 <blockquote className='pl-3 mt-3 border-[#e5451b] border-l-[2px]'>
                   <p style={{ textAlign: 'justify' }}>
-                    Với dịch vụ thay đổi tên công ty tại Anpha, chỉ cần 3 ngày để Sở KH&amp;ĐT xét duyệt hồ sơ và cấp
-                    GPKD mới. Hãy liên hệ Anpha theo số&nbsp;
+                    Với dịch vụ thay đổi tên công ty tại Alpha, chỉ cần 3 ngày để Sở KH&amp;ĐT xét duyệt hồ sơ và cấp
+                    GPKD mới. Hãy liên hệ Alpha theo số&nbsp;
                     <strong>
                       <a href='tel:0984477711 ' rel='nofollow' target='_blank'>
                         0984 477 711 (Miền Bắc)
@@ -411,7 +411,7 @@ const DichVuThayDoiTen = () => {
                       <strong>Xem chi tiết:</strong>
                     </span>
                     <strong>&nbsp;</strong>
-                    <a href='https://ketoananpha.vn/doi-ten-cong-ty.html#buoc5'>
+                    <a href='https://ketoanAlpha.vn/doi-ten-cong-ty.html#buoc5'>
                       Những lưu ý sau khi thay đổi tên công ty
                     </a>
                     .
@@ -564,10 +564,10 @@ const DichVuThayDoiTen = () => {
             </div>
             <a className='text-primary' href='/dich-vu-bao-cao-thue.html'>
               <img
-                data-src='https://ketoananpha.vn/uploads/images/post/160-cu/dich-vu-bao-cao-thue.jpg'
+                data-src='https://ketoanAlpha.vn/uploads/images/post/160-cu/dich-vu-bao-cao-thue.jpg'
                 className='img-fluid lazy'
                 alt='Dịch vụ báo cáo thuế, BCTC cuối năm - Chỉ từ 500.000đ/tháng'
-                src='https://ketoananpha.vn/uploads/images/post/160-cu/dich-vu-bao-cao-thue.jpg'
+                src='https://ketoanAlpha.vn/uploads/images/post/160-cu/dich-vu-bao-cao-thue.jpg'
               />
               <p className='my-3 pb-3 text-[#2a4e9a] border-b font-semibold border-bottom border-1 fw-bold'>
                 Thủ tục thay đổi Giấy Phép Kinh Doanh trực tiếp và qua mạng
@@ -605,7 +605,7 @@ const DichVuThayDoiTen = () => {
                   <a
                     className='text-reset'
                     title='Dịch vụ kế toán trọn gói'
-                    href='https://ketoananpha.vn/dich-vu-ke-toan-tron-goi.html'
+                    href='https://ketoanAlpha.vn/dich-vu-ke-toan-tron-goi.html'
                   >
                     Dịch vụ đổi địa chỉ công ty
                   </a>
@@ -616,7 +616,7 @@ const DichVuThayDoiTen = () => {
                   <a
                     className='text-reset'
                     title='làm lại sổ sách kế toán'
-                    href='https://ketoananpha.vn/dich-vu-lam-so-sach-ke-toan.html'
+                    href='https://ketoanAlpha.vn/dich-vu-lam-so-sach-ke-toan.html'
                   >
                     Dịch vụ thay đổi người đại diện pháp luật
                   </a>
@@ -626,7 +626,7 @@ const DichVuThayDoiTen = () => {
                   <a
                     className='text-reset'
                     title='Dịch vụ khai thuế ban đầu'
-                    href='https://ketoananpha.vn/thue-ban-dau-va-mua-hoa-don.html'
+                    href='https://ketoanAlpha.vn/thue-ban-dau-va-mua-hoa-don.html'
                   >
                     Đăng ký thêm mã ngành kinh doanh
                   </a>
@@ -637,7 +637,7 @@ const DichVuThayDoiTen = () => {
                   <a
                     className='text-reset'
                     title='hóa đơn điện tử Viettel'
-                    href='https://ketoananpha.vn/dich-vu-hoa-don-dien-tu-viettel-va-easyinvoice.html'
+                    href='https://ketoanAlpha.vn/dich-vu-hoa-don-dien-tu-viettel-va-easyinvoice.html'
                   >
                     Dịch vụ thay đổi giấy phép kinh doanh
                   </a>{' '}

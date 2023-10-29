@@ -34,7 +34,7 @@ const Rating = () => {
         <CommentItem
           title='Chị Hà Thực Phẩm Organic'
           day='10-11-2022 lúc 10:34'
-          desc=' chị cảm ơn Tuyết nhé, rất là chịu khó giải thích cho chị hiểu giấy tờ bên thuế, dịch vụ Anpha tốt nha (mỗi tội làm tốt quá nên giờ không có ý định tuyển kế toán nội bộ nữa) '
+          desc=' chị cảm ơn Tuyết nhé, rất là chịu khó giải thích cho chị hiểu giấy tờ bên thuế, dịch vụ Alpha tốt nha (mỗi tội làm tốt quá nên giờ không có ý định tuyển kế toán nội bộ nữa) '
         />
       </div>
     </div>

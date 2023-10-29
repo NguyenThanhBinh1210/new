@@ -81,7 +81,7 @@ const Home = () => {
               <ComponentImg
                 img={ThuTucThanhLap}
                 title="Hồ sơ, thủ tục và cách đăng ký thành lập công ty, doanh nghiệp"
-                describe="16 năm thành lập hơn 70.000 doanh nghiệp. Anpha tự tin cung cấp dịch vụ thành lập công ty chỉ 250.000đ tại Hà Nội, Tphcm và các tỉnh lân cận"
+                describe="16 năm thành lập hơn 70.000 doanh nghiệp. Alpha tự tin cung cấp dịch vụ thành lập công ty chỉ 250.000đ tại Hà Nội, Tphcm và các tỉnh lân cận"
               />
             </div>
             <div>

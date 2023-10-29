@@ -37,7 +37,7 @@ const index = () => {
                       </p>
                       <p style={{ textAlign: 'justify' }}>
                         <span style={{ fontFamily: 'helvetica, arial, sans-serif' }}>
-                          <strong>HÃY SỬ DỤNG DỊCH VỤ KẾ TOÁN THUẾ TRỌN GÓI CỦA TTC</strong>
+                          <strong>HÃY SỬ DỤNG DỊCH VỤ KẾ TOÁN THUẾ TRỌN GÓI CỦA ALPHA</strong>
                         </span>
                       </p>
                       <p style={{ textAlign: 'justify' }}>
@@ -111,7 +111,7 @@ const index = () => {
                       </p>
                       <p style={{ textAlign: 'justify' }}>
                         <span style={{ fontFamily: 'helvetica, arial, sans-serif' }}>
-                          Dịch vụ kế toán thuế của TTC có đội ngũ nhân sự chuyên nghiệp, nhiều năm kinh nghiệm, am hiểu
+                          Dịch vụ kế toán thuế của Alphacó đội ngũ nhân sự chuyên nghiệp, nhiều năm kinh nghiệm, am hiểu
                           luật thuế và <strong>đặc thù từng ngành nghề kinh doanh.</strong>
                         </span>
                       </p>
