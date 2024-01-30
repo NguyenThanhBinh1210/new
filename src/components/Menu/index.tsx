@@ -20,13 +20,13 @@ const dataMenu = [
     children: [
       {
         id: 8,
-        path: '/thanh-lap-cong-ty-co-phan',
-        title: 'Công ty cổ phần'
+        path: '/thanh-lap-cong-ty-tnhh',
+        title: 'Công ty tnhh'
       },
       {
         id: 9,
-        path: '/thanh-lap-cong-ty-tnhh',
-        title: 'Công ty tnhh'
+        path: '/thanh-lap-cong-ty-co-phan',
+        title: 'Công ty cổ phần'
       },
     ]
   },

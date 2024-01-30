@@ -66,7 +66,7 @@ const Comment: React.FC<CommentProps> = ({ datas }) => {
           </div>
         </div>
         {isVisible && (
-          <RepComment apiEndpoint={['https://api-kinhdoanh.onrender.com/api/v1/comment/replies', datas._id]} />
+          <RepComment apiEndpoint={['https://api.ketoanalpha.pro.vn:444/api/v1/comment/replies', datas._id]} />
         )}
         <div className='ml-4'>
           {datas.replies && datas.replies.map((replys: any) => <Comment key={replys.id} datas={replys} />)}
@@ -89,7 +89,7 @@ function AllComent() {
       try {
         const limit = 5
         const response = await axios.get(
-          `https://api-kinhdoanh.onrender.com/api/v1/comment/get-all-comment?page=${currentPage}&limit=${limit}`
+          `https://api.ketoanalpha.pro.vn:444/api/v1/comment/get-all-comment?page=${currentPage}&limit=${limit}`
         ) // Đường dẫn API lấy tất cả comments
         setComments(response.data.comments)
       } catch (error) {

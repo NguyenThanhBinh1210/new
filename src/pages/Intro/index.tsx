@@ -291,7 +291,7 @@ const Intro = () => {
         
       </div>
       <ReviewComponent />
-      <Comment apiEndpoint='https://api-kinhdoanh.onrender.com/api/v1/comment/create' />
+      <Comment apiEndpoint='https://api.ketoanalpha.pro.vn:444/api/v1/comment/create' />
       <AllComent />
     </div>
   )

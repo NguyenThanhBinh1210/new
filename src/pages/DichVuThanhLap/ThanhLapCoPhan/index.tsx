@@ -8,10 +8,10 @@ const index = () => {
           <div className='row'>
             <div className='col-md-12 col-sm-12 col-xs-12'>
               <div className='main-page'>
-                <h2 className='page-title text-[22px] uppercase font-semibold mb-3'>HOÀN THUẾ GTGT</h2>
+                <h2 className='page-title text-[22px] uppercase font-semibold mb-3'>Dịch vụ thành lập công ty cổ phần, Từ 3 Ngày Xong</h2>
                 <div className='page-content clearfix'>
                   <article className='entry-detail'>
-                    <div className='entry-photo w-[60%] mb-3 mx-auto border rounded-sm p-2'>
+                    <div className='entry-photo w-[50%] mb-3 mx-auto border rounded-sm p-2'>
                       <img src={Img} className='' />
                     </div>{' '}
                     <div className='entry-content clearfix'>

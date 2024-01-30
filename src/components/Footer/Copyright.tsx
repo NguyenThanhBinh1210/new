@@ -5,7 +5,7 @@ const Copyright = () => {
       <div className='lg:w-[1250px] mx-auto lg:flex justify-around lg:gap-x-2'>
         <div>
           <div className='font-semibold text-[18px]'>Thông tin liên hệ:</div>
-          <div>Địa chỉ : 429 đại lộ Bình Dương, TP.Bình Dương</div>
+          <div>Địa chỉ : Tầng 3. Số 4 nguyễn đình chiểu. Dakao quận 1.</div>
           <div>Hotline tư vấn:  0971.559.971  </div>
         </div>
         <div>

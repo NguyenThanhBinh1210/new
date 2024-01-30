@@ -11,9 +11,9 @@ const index = () => {
                 <div className='page-content clearfix'>
                   <article className='entry-detail'>
                     <div className='entry-photo'>
-                      <img src={DichVuKeToan} alt='DichVuKeToan' />
+                      <img src={DichVuKeToan} style={{width: "50%", margin: "0 auto"}} alt='DichVuKeToan' />
                     </div>{' '}
-                    <div className='entry-content clearfix'>
+                    <div className='py-10 entry-content clearfix'>
                       <p style={{ textAlign: 'justify' }}>
                         <span style={{ fontFamily: 'helvetica, arial, sans-serif' }}>
                           {' '}
